@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(237, 223, 202);
+}
+
+.header {
+    background-color: #ECF7FD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img {
+    height: 70px;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-link {
+    list-style: none;
+}
+
+.header .nav-link li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-link li:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-link a {
+    font-size: 700;
+    color: #2a90b5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header .nav-link li a:hover {
+    color: rgb(247, 217, 177);
+}
+
+.header .btn button {
+    font-weight: 700;
+    color: white;
+    padding: 9px 25px;
+    background-color: #2a90b5;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5 ease 3s;
+}
+
+.header .btn button:hover {
+    background-color: bisque;
+    color: cadetblue;
+    transform: scale(1.15);
+}
+
+main .portada {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+
+}
+
+main .portada img {
+    max-width: 100%;
+    position: relative;
+    bottom: 60px;
+    align-self: center;
+}
+
+footer {
+    background-color: #ECF7FD;
+    padding: 15px;
+    text-align: center;
+}
+footer a img{
+    max-width: 2%;
+}
