@@ -95,7 +95,7 @@ footer a img{
     max-width: 2%;
 }
 
-/*--------Css de formularios------*/
+/*--------Css de registro------*/
 
 main .formulario{
     display: flex;
@@ -110,9 +110,26 @@ main .form{
 /*------Css de Sucursales------*/
 
 
-
 main .sucursales{
     display: flex;
     flex-wrap: wrap;
 justify-content: space-around;
+}
+
+/*----Css de Servicios------*/
+
+main section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section img{
+    max-width: 25%;
+    padding: 2%;
+}
+
+main section .servicios{
+    display: flex;
+    justify-content: space-around
 }
