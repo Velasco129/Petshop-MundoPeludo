@@ -106,3 +106,13 @@ main .formulario{
 main .form{
     background-color: darkgrey;
 }
+
+/*------Css de Sucursales------*/
+
+
+
+main .sucursales{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-around;
+}
