@@ -94,3 +94,15 @@ footer {
 footer a img{
     max-width: 2%;
 }
+
+/*--------Css de formularios------*/
+
+main .formulario{
+    display: flex;
+    justify-content: center;
+
+}
+
+main .form{
+    background-color: darkgrey;
+}

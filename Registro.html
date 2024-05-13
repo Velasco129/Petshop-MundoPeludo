@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="./css/Estilos.css">
     <link rel="icon" href="./img/mascota icono.png">
 </head>
+
 <body>
     <header class="header">
         <div class="logo">
-            <a href="./Index.html"><img src="./img/Logo.jpg" alt="logode la marca" ></a>
+            <a href="./Index.html"><img src="./img/Logo.jpg" alt="logode la marca"></a>
         </div>
         <nav>
             <ul class="nav-link">
@@ -20,15 +21,102 @@
                 <li><a href="./Nosotros.html">Nosotros</a></li>
             </ul>
         </nav>
-    
+
     </header>
-    <main>
-        <h1>Aca el formulario</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, cumque? Odio, quod consequatur. Accusantium numquam quos fuga sunt, pariatur adipisci commodi ad non ut, sequi deleniti ipsam repellat explicabo necessitatibus dolore. Minus repellendus rerum molestiae facere fugit nostrum sed, assumenda expedita enim iusto iste provident dignissimos itaque sequi dolorem corrupti.</p>
+    <main>      
+        <br>
+            <h1>Registro</h1>
+        <div class="formulario">
+            <form class="form" action="https://html4formulario24178mr.netlify.app/show_data.html">
+                <label for="nombre">Nombre: &nbsp; &nbsp;</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" maxlength="30" size="40">
+                <br>
+                <br>
+                <label for="apellido">Apellido:&nbsp; &nbsp; </label>
+                <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" size="40">
+                <br>
+                <br>
+                <label for="edad">Edad:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+                <input type="number" name="edad" id="edad" placeholder="Ingrese su edad" size="40">
+                <br>
+                <br>
+                <label for="">Lugar de nacimiento:;</label>
+                <input type="text" name="ciudad" id="ciudad" placeholder="Ingrese su lugar de nacimiento" value="">
+                <br>
+                <br>
+                <label for="fechan">Fecha Nac:&nbsp;</label>
+                <input type="date" id="fechan" name="fechan">
+                <br>
+                <br>
+                <label for="mail">E-mail:&nbsp; &nbsp; &nbsp; &nbsp;</label>
+                <input type="email" name="email" id="email" placeholder="Ingrese su email" size="40">
+                <br>
+                <br>
+                <label for="genero">Genero:&nbsp; &nbsp; &nbsp; </label>
+                <input type="radio" name="genero" value="f">Femenino
+                <input type="radio" name="genero" value="m">Masculino
+                <input type="radio" name="genero" value="o">Otro
+                <br>
+                <br>
+                <label for="genero">Estado civil: </label>
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="genero"
+                    value="f">Soltero/a
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="genero"
+                    value="c">Casado/a
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="genero"
+                    value="d">Divorciado/a
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="genero"
+                    value="v">Viudo/a
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="genero"
+                    value="j">Juntado/a
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="genero"
+                    value="p">Poliamor
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="genero"
+                    value="t">Tramposo/a
+                <br>
+                <br>
+                <label for="conocimientos">Especie de mascota: </label>
+
+                <input type="checkbox" name="conocimientos" value="h">Perros
+                <input type="checkbox" name="conocimientos" value="c">Gatos
+                <input type="checkbox" name="conocimientos" value="j">Aves
+                <input type="checkbox" name="conocimientos" value="m">Reptiles
+                <input type="checkbox" name="conocimientos" value="p">Peces
+                <input type="checkbox" name="conocimientos" value="ja">Roedores
+                <br>
+                <br>
+                <label for="estudio">Estudios Completos: &nbsp; &nbsp;</label>
+                <select name="estudio" id="estudio">
+                    <option value="p" name="estudio">Primaria</option>
+                    <option value="s" name="estudio">Secundaria</option>
+                    <option value="t" name="estudio">Terciario</option>
+                    <option value="u" name="estudio">Universitario</option>
+                </select>
+
+                <br><br>
+                <label for="comentarios">Comentarios: </label>
+                <br>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10"
+                    placeholder="Escriba un comentario"></textarea>
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="submit"
+                    value="Enviar">
+            </form>
+        </div>
+        <br>
     </main>
     <footer>
         <p>Sitio desarrollado en codo a codo</p>
 
-    </footer> 
+    </footer>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
