@@ -2,12 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-family: "Radio Canada Big";
+    font-size: 30px;
+    
 }
 
 body {
-    background-color: rgb(237, 223, 202);
+    background-color: rgb(255, 255, 255);
 }
 
 .header {
@@ -118,7 +119,14 @@ justify-content: space-around;
 
 /*----Css de Servicios------*/
 
+.pag-servicios{
+    background-image: url(../img/Fondo\ de\ servicios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 main section div{
+    margin: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,10 +134,30 @@ main section div{
 
 main section img{
     max-width: 25%;
-    padding: 2%;
+   
 }
 
 main section .servicios{
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+}
+
+
+main section div .vet-int{
+    display: flex;
+   flex-direction: column;
+}
+
+main section div .vet-int-ul{
+    padding: 2%;
+}
+
+main section div .pelu-int{
+    display: flex;
+   flex-direction: column;
+}
+
+main section div .adop-int{
+    display: flex;
+   flex-direction: column;
 }

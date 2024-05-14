@@ -5,16 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetShop Nombre</title>
-    <link rel="stylesheet" href="./css/Estilos.css">
-    <link rel="icon" href="./img/mascota icono.png">
+    <link rel="stylesheet" href="./css/Estilos.css"><!--Hoja Stilo-->
+    <link rel="icon" href="./img/mascota icono.png"><!--Favicon-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
 </head>
 
-<body class="pag">
+<body>
     <header class="header">
 
     </header>
-    <main>
-        <h1>Nuestros Servicios</h1>
+    <main class="pag-servicios">
+        <div>
+             <h1>Nuestros Servicios</h1>
         <p> "En nuestro centro integral de cuidado animal, ofrecemos una amplia gama de servicios para satisfacer todas
             las necesidades de tus mascotas. Desde atención veterinaria experta y cuidados preventivos hasta servicios
             de peluquería profesional, nos aseguramos de que tus amigos peludos luzcan y se sientan lo mejor posible.
@@ -22,23 +27,46 @@
             conectando a animales necesitados con hogares amorosos. En nuestro espacio, cada animal recibe el amor, la
             atención y los cuidados que se merece, creando un ambiente donde tanto las mascotas como sus dueños se
             sienten bienvenidos y apoyados."</p>
-
+        </div>
         <section class="servicios">
             <div class="veterinaria"><img src="./img/Veterinaria.jpg" alt="veterinaria">
-                <h2>Veterinaria</h2>
-                <p>"Ofrecemos atención veterinaria integral y compasiva para mantener a tus mascotas felices y
-                    saludables."</p>
+                <div class="vet-int">
+                    <h2>Veterinaria</h2>
+                    <p>"Ofrecemos atención veterinaria integral y compasiva para mantener a tus mascotas felices y
+                        saludables."</p>
+                    <ul>
+                        <li>INTERNACIONES</li>
+                        <li>RAYOS X</li>
+                        <li>LABORATORIO</li>
+                        <li>ECOGRAFIAS</li>
+                        <li>CASTRACIONES</li>
+                        <li>CIRUGIAS</li>
+                    </ul>
+
+                </div>
             </div>
             <div class="peluqueria"><img src="./img/Peluqueria.jpg" alt="peluqueria canina">
-                <h2>Peluqueria</h2>
-                <p>
-                    "Nuestros servicios de peluquería canina profesional garantizan que tu mejor amigo luzca impecable y
-                    se sienta cómodo."</p>
+
+                <div class="pelu-int">
+                    <h2>Peluqueria</h2>
+                    <p>"Nuestros servicios de peluquería canina profesional garantizan que tu mejor amigo luzca
+                        impecable y
+                        se sienta cómodo."</p>
+                    <ul>
+                        <li>CORTE Y BAÑO COMPLETO</li>
+                        <li>BAÑO HIPOALERGENICO</li>
+                        <li>LIMPIEZA DE OIDOS</li>
+                        <li>CORTE DE UÑAS</li>
+                        <li>CORTES DE RAZA</li>
+                    </ul>
+                </div>
             </div>
             <div class="adopciones"><img src="./img/Adopcion.jpg" alt="adopcion de mascotas">
-               <h2>Adopciones</h2> 
-                <p>"Facilitamos el encuentro entre mascotas necesitadas y hogares amorosos a través de
-                    nuestro servicio de adopción responsable."</p>
+                <div class="adop-int">
+                    <h2>Adopciones</h2>
+                    <p>"Facilitamos el encuentro entre mascotas necesitadas y hogares amorosos a través de
+                        nuestro servicio de adopción responsable."</p>
+                </div>
             </div>
 
         </section>
