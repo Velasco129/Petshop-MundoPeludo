@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "Radio Canada Big";
-    font-size: 30px;
+    font-size: 25px;
     
 }
 
@@ -120,13 +120,18 @@ justify-content: space-around;
 /*----Css de Servicios------*/
 
 .pag-servicios{
-    background-image: url(../img/Fondo\ de\ servicios.jpg);
+    padding: 1% 5%;
+    background-image: url(../img/ocico.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
 
-main section div{
-    margin: 5%;
+main section .bar{
+    padding: 50px;
+}
+
+main .pag-servicios .servicios{
+   padding: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,18 +139,35 @@ main section div{
 
 main section img{
     max-width: 25%;
-   
 }
 
-main section .servicios{
+main .servicios > div{
+    padding: 0 5% 2%;
+}
+
+main .servicios .veterinaria{
+    display: flex;
+    justify-content: space-around;
+}
+
+main .servicios .peluqueria{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+
+main .servicios .adopciones{
     display: flex;
     justify-content: space-around;
 }
 
 
 main section div .vet-int{
+    margin: 0% 30% 0% 3%;
     display: flex;
    flex-direction: column;
+   align-items: start;
 }
 
 main section div .vet-int-ul{
@@ -153,11 +175,17 @@ main section div .vet-int-ul{
 }
 
 main section div .pelu-int{
+    margin: 0% 3% 0% 30%;
     display: flex;
    flex-direction: column;
+   align-items: center;
+   
 }
 
 main section div .adop-int{
+    margin: 0% 30% 0% 3%;
+
     display: flex;
    flex-direction: column;
+   align-items: center;
 }
