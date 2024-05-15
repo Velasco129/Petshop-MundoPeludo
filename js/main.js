@@ -1,3 +1,15 @@
+let meta=`<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PetShop Nombres</title>
+<link rel="stylesheet" href="./css/Estilos.css"><!--Hoja Stilo-->
+<link rel="icon" href="./img/mascota icono.png"><!--Favicon-->
+<link rel="preconnect" href="https://fonts.googleapis.com"><!--fuente de googlefont-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https: //fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">`
+
+document.querySelector("head").innerHTML=meta
+
 let navegacion=`
 <div class="logo">
 <a href="./Index.html"><img src="./img/Logo.jpg" alt="logode la marca" ></a> 
