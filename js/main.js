@@ -30,6 +30,7 @@ let pie=`
         <a href="https://www.facebook.com/naturallifepet"><img src="./img/facebook.png" alt=""></a>
         <a href="https://www.instagram.com/natural_life_pet/"><img src="./img/instagram.png" alt=""></a>
         <a href="https://api.whatsapp.com/send?phone=5491167026320"><img src="./img/whatsapp.png" alt=""></a>
+        <p>Autores: Velasco Lucas - Santiago - Juan - Marcos</p>
 `
 
 document.querySelector("footer").innerHTML=pie

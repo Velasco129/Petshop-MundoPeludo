@@ -7,16 +7,12 @@
     
 }
 
-body {
-    background-color: rgb(255, 255, 255);
-}
-
 .header {
     background-color: #ECF7FD;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
+    height: 100%;
     padding: 5px 10%;
 
 }
@@ -69,15 +65,20 @@ body {
 
 .header .btn button:hover {
     background-color: bisque;
-    color: cadetblue;
+   
     transform: scale(1.15);
 }
 
+body .index{
+    background-color: #a4c0ca;
+    padding-bottom: 3%;
+    max-width: 100%;
+   
+}
 main .portada {
-    width: 100%;
+    max: 100%;
     height: 400px;
     overflow: hidden;
-
 }
 
 main .portada img {
@@ -86,23 +87,73 @@ main .portada img {
     bottom: 60px;
     align-self: center;
 }
-main div .alimentosperros{
-    margin: 45px 15%;
+main div .aside-main{
+    max-width: 100%;
+    margin: 3% 0 0 5%;
+    padding: 5%;
+    background-color: beige;
+}
+
+main div .content-main{
+    display: flex;
+    max-width: 100%;
     
+}
+main div div .tienda{
+ max-width: 100%;
+ overflow: hidden;
+}
+
+main div div div section div div img:hover{
+   transform: scale(1.2);
+
+}
+
+main div section div .padding-content{
+    margin: 2% 1% 3% 1%;
+    border-radius: 5%;
+   border: 3px solid rgb(136, 130, 130);
+}
+
+main div .boxbarra{
+    margin: 45px 15%;
+background-color: #ffffff;
+overflow: auto;
+border-radius: 10px
+}
+main div section .ali-content-perro{
+display: flex;
+justify-content: space-around;
+border-radius: 5%;
 }
 
 main div .alimentosgatos{
-    margin: 45px auto;
+    margin: 45px 15%;
+    background-color: #ffffff;
+
 }
 
-main div .juegosmascotas{
-    margin: 45px auto;
+main div section .ali-content-gato{
+    display: flex;
+    justify-content: space-around;
+    }
+
+main div .juegomascotas{
+    margin: 45px 15%;
+    background-color: #ffffff;
 }
+
+main div section .content-juegos{
+    display: flex;
+    justify-content: space-around;
+    }
 
 footer {
     background-color: #ECF7FD;
     padding: 15px;
     text-align: center;
+    border-top: 2px solid rgb(171, 166, 166);
+
 }
 footer a img{
     max-width: 2%;
@@ -149,7 +200,7 @@ main .pag-servicios .servicios{
     align-items: center;
 }
 
-main section img{
+main .servicios img{
     max-width: 25%;
 }
 
