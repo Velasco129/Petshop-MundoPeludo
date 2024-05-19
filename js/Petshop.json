@@ -1,0 +1,100 @@
+{
+    "alimentosperro": [
+                {
+                    "id": 1,
+                    "nombre": "Eukanuba",
+                    "precio": 64000,
+                    "foto": "https://cdn.royalcanin-weshare-online.io/5udGXIMBaPOZra8q-eyX/v23/ar-l-eukanuba-packshot-adult-large-breed?w=500&fm=jpg&auto=compress"
+                },
+                {
+                    "id": 2,
+                    "nombre": "Pro Plan",
+                    "precio": 70000,
+                    "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2022-10/razas-medianas-1-proplan.png.webp?itok=M7p4g4jF"
+                },
+                {
+                    "id": 3,
+                    "nombre": "Rayal Canin",
+                    "precio": 72000,
+                    "foto": "https://catycanar.vtexassets.com/arquivos/ids/160559-1600-auto?v=637762992189600000&width=1600&height=auto&aspect=true"
+                },
+                {
+                    "id": 4,
+                    "nombre": "VitalCan",
+                    "precio": 65000,
+                    "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_939749-MLU75592618333_042024-F.webp"
+                },
+                {
+                    "id": 5,
+                    "nombre": "Dog Chow",
+                    "precio": 60000,
+                    "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2023-04/dog-chow-adulto-med-gnd-carne-pollo-front.png.webp?itok=UZ8OvqjH"
+                },
+                {
+                    "id": 6,
+                    "nombre": "Dogui",
+                    "precio": 50000,
+                    "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2022-11/dogui-adultos-con-carne-pollo-cereales-y-vegetalles.jpg.webp?itok=mI_SO-b6"
+                },
+                {
+                    "id": 7,
+                    "nombre": "Kongo",
+                    "precio": 51000,
+                    "foto": "https://kongo.com.ar/wp-content/uploads/elementor/thumbs/x1-qavc3agzhx1l4kip64l7hhwk1khx9mjrxmg8eu55a8.jpg"
+                },
+                {
+                    "id": 8,
+                    "nombre": "Dog Selection",
+                    "precio": 70000,
+                    "foto": "https://www.dog-selection.com.ar/wp-content/uploads/2020/11/criadores-adultos-carne-y-vegetales-1.png"
+                }],
+    "alimentogato": [
+                {
+                    "id": 1,
+                    "nombre": "Eukanuba",
+                    "precio": 64000,
+                    "foto": "https://cdn.royalcanin-weshare-online.io/5udGXIMBaPOZra8q-eyX/v23/ar-l-eukanuba-packshot-adult-large-breed?w=500&fm=jpg&auto=compress"
+                },
+                {
+                    "id": 2,
+                    "nombre": "Pro Plan",
+                    "precio": 70000,
+                    "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2022-10/razas-medianas-1-proplan.png.webp?itok=M7p4g4jF"
+                },
+                {
+                    "id": 3,
+                    "nombre": "Rayal Canin",
+                    "precio": 72000,
+                    "foto": "https://catycanar.vtexassets.com/arquivos/ids/160559-1600-auto?v=637762992189600000&width=1600&height=auto&aspect=true"
+                },
+                {
+                    "id": 4,
+                    "nombre": "VitalCan",
+                    "precio": 65000,
+                    "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_939749-MLU75592618333_042024-F.webp"
+                },
+                {
+                    "id": 5,
+                    "nombre": "Dog Chow",
+                    "precio": 60000,
+                    "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2023-04/dog-chow-adulto-med-gnd-carne-pollo-front.png.webp?itok=UZ8OvqjH"
+                },
+                {
+                    "id": 6,
+                    "nombre": "Dogui",
+                    "precio": 50000,
+                    "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2022-11/dogui-adultos-con-carne-pollo-cereales-y-vegetalles.jpg.webp?itok=mI_SO-b6"
+                },
+                {
+                    "id": 7,
+                    "nombre": "Kongo",
+                    "precio": 51000,
+                    "foto": "https://kongo.com.ar/wp-content/uploads/elementor/thumbs/x1-qavc3agzhx1l4kip64l7hhwk1khx9mjrxmg8eu55a8.jpg"
+                },
+                {
+                    "id": 8,
+                    "nombre": "Dog Selection",
+                    "precio": 70000,
+                    "foto": "https://www.dog-selection.com.ar/wp-content/uploads/2020/11/criadores-adultos-carne-y-vegetales-1.png"
+                }]
+}

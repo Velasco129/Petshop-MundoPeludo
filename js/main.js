@@ -8,20 +8,19 @@ let meta=`<meta charset="UTF-8">
 <link href="https: //fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
     rel="stylesheet">`
 
-document.querySelector("head").innerHTML=meta
-
 let navegacion=`
 <div class="logo">
 <a href="./Index.html"><img src="./img/Logo.jpg" alt="logode la marca" ></a> 
 </div>
 <nav>
  <ul class="nav-link">
+     <li><a href="./Productos.html">Productos</a></li>
      <li><a href="./Servicios.html">Servicios</a></li>
      <li><a href="./Sucursales.html">Sucursales</a></li>
      <li><a href="./Nosotros.html">Nosotros</a></li>
  </ul>
 </nav>
-<a href="./Registro.html" class="btn"><button>Registrese</button></a>
+<a href="./Registro.html" class="btn"><button>Contactenos</button></a>
 `
 document.querySelector("header").innerHTML=navegacion
 
@@ -33,4 +32,6 @@ let pie=`
         <p>Autores: Velasco Lucas - Santiago - Juan - Marcos</p>
 `
 
+document.querySelector("head").innerHTML=meta
+document.querySelector("header").innerHTML=navegacion
 document.querySelector("footer").innerHTML=pie
