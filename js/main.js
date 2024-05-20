@@ -1,6 +1,6 @@
 let meta=`<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PetShop Nombres</title>
+<title>Mundo peludo</title>
 <link rel="stylesheet" href="./css/Estilos.css"><!--Hoja Stilo-->
 <link rel="icon" href="./img/mascota icono.png"><!--Favicon-->
 <link rel="preconnect" href="https://fonts.googleapis.com"><!--fuente de googlefont-->
