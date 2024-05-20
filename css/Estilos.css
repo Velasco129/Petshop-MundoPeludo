@@ -70,13 +70,12 @@
 }
 
 body .index{
-    background-color: #a4c0ca;
+    background-color: #eff4f6;
     padding-bottom: 3%;
     max-width: 100%;
    
 }
 main .portada {
-
     height: 400px;
     overflow: hidden;
 }
@@ -84,11 +83,19 @@ main .portada {
 main .portada img {
     max-width: 100%;
     position: relative;
-    bottom: 60px;
+    align-self: center;
+}
+
+/*--------Css de productos------*/
+
+main .bannerpromo img {
+    max-width: 100%;
+    position: relative;
+   
     align-self: center;
 }
 main div .aside-main{
-    max-width: 100%;
+    max-width: 20%;
     margin: 3% 0 0 5%;
     padding: 5%;
     background-color: beige;
@@ -100,8 +107,16 @@ main div .content-main{
     
 }
 main div div .tienda{
+    margin-top: 5%;
  max-width: 100%;
  overflow: hidden;
+}
+
+main div div div .titlecategoria{
+    text-align: center;
+    color: darkgrey;
+    margin: 2%;
+    background-color: #9bd2f0;
 }
 
 main div div div section div div img:hover{
@@ -113,6 +128,18 @@ main div section div .padding-content{
     margin: 2% 1% 3% 1%;
     border-radius: 5%;
    border: 3px solid rgb(136, 130, 130);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   max-width: 120px;
+
+}
+
+main div section div .padding-content img{
+max-width: 100px;
+max-height: 100px;
+
 }
 
 main div .boxbarra{
@@ -121,35 +148,15 @@ background-color: #ffffff;
 overflow: auto;
 border-radius: 10px
 }
-main div section .ali-content-perro{
+main div section .ali-content{
 display: flex;
 justify-content: space-around;
 border-radius: 5%;
 }
 
-main div .alimentosgatos{
-    margin: 45px 15%;
-    background-color: #ffffff;
-
-}
-
-main div section .ali-content-gato{
-    display: flex;
-    justify-content: space-around;
-    }
-
-main div .juegomascotas{
-    margin: 45px 15%;
-    background-color: #ffffff;
-}
-
-main div section .content-juegos{
-    display: flex;
-    justify-content: space-around;
-    }
 
 footer {
-    background-color: #ECF7FD;
+    background-color: #d1e9f6;
     padding: 15px;
     text-align: center;
     border-top: 2px solid rgb(171, 166, 166);

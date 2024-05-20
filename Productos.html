@@ -1,91 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 
 </head>
+
 <body>
     <header class="header">
-        
+
     </header>
     <main class="index">
         <div class="home">
-            <div class="portada">
-                <img src="./img/Portada.jpg" alt="mascotas">
+            <div class="bannerpromo">
+                <img src="./img/Webbanners-productos.png" alt="promocion">
             </div>
             <div class="content-main">
                 <aside class="aside-main">
                     <h2>Novedades</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum at architecto vel atque cupiditate, a dicta nesciunt molestias accusamus asperiores quisquam necessitatibus ab, corrupti ipsa fuga, esse quas similique.!</p>
                 </aside>
-                <div class="tienda">
-                    <h2>Alimento para perro</h2>
+                <div id="app" class="tienda">
+                    <div class="titlecategoria">
+                      <h2>Alimento para perro</h2>   
+                    </div>
                     <section class="boxbarra">
-                        <div class="ali-content-perro">
-                            <div class="padding-content"><a href=""><img src="./img/Eukanuba 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/Pro Plan 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/Royal Canin 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/VitalCan 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/Eukanuba 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/Pro Plan 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/Royal Canin 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/VitalCan 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/Eukanuba 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/Pro Plan 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/Royal Canin 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/VitalCan 150x150.png" alt=""></a>
+                        <div class="ali-content">
+                            <div class="padding-content" v-for="elemento in datos.alimentosperro">
+                                <h2>{{elemento.nombre}}</h2>
+                                <h4>${{elemento.precio}}</h4>
+                                <a href=""><img :src="elemento.foto" alt="elemento.nombre"></a>
                             </div>
                         </div>
                     </section>
-                    <h2>Alimento para gatos</h2>
+                    <div class="titlecategoria">
+                        <h2>Alimento para gatos</h2>  
+                    </div>
                     <section class="boxbarra">
-                        <div class="ali-content-gato">
-                            <div class="padding-content"><a href=""><img src="./img/Eukanuba 150x150.png" alt=""></a>
+                        <div class="ali-content">
+                            <div class="padding-content" v-for="elemento in datos.alimentosgato">
+                                <h2>{{elemento.nombre}}</h2>
+                                <h3>${{elemento.precio}}</h3>
+                                <a href=""><img :src="elemento.foto" alt="elemento.nombre"></a>
                             </div>
-                            <div class="padding-content"><a href=""><img src="./img/Pro Plan 150x150.png" alt=""></a>
+                    </section>
+                    <div class="titlecategoria">
+                       <h2>Accesorios para mascotas</h2> 
+                    </div>
+                    <section class="boxbarra">
+                        <div class="ali-content">
+                            <div class="padding-content" v-for="elemento in datos.accesoriosmascota">
+                                <h2>{{elemento.nombre}}</h2>
+                                <h3>${{elemento.precio}}</h3>
+                                <a href=""><img :src="elemento.foto" alt="elemento.nombre"></a>
                             </div>
-                            <div class="padding-content"><a href=""><img src="./img/Royal Canin 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/VitalCan 150x150.png" alt=""></a>
                             </div>
                         </div>
                     </section>
-                    <h2>Jueguetes para mascotas</h2>
-                    <section class="boxbarra">
-                        <div class="content-juegos">
-                            <div class="padding-content"><a href=""><img src="./img/Eukanuba 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/Pro Plan 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/Royal Canin 150x150.png" alt=""></a>
-                            </div>
-                            <div class="padding-content"><a href=""><img src="./img/VitalCan 150x150.png" alt=""></a>
-                            </div>
-                        </div>
-                    </section>
-                    <h2>Alimento para perro</h2>
-                    <section class="boxbarra">
-                        <div class="ali-content-perro">
-                            <div class="padding-content">
-                                <div id="app">
-                                    <div v-for="elemento in datos">
-                                        <h2>{{elemento.alimentosperro.nombre}}</h2>
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    
                 </div>
             </div>
         </div>
@@ -95,4 +65,5 @@
     <script src="./js/IndexVue.js"></script>
     <script src="./js/main.js"></script>
 </body>
+
 </html>
