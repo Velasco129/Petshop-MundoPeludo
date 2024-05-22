@@ -90,9 +90,9 @@
     "accesoriosmascota": [
         {
             "id": 1,
-            "nombre": "Castillo Rascador",
+            "nombre": "Cepillo",
             "precio": 5000,
-            "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_615459-MLU73936759469_012024-F.webp"
+            "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_702757-MLA54969147398_042023-F.webp"
         },
         {
             "id": 3,
@@ -120,9 +120,10 @@
         },
         {
             "id": 7,
-            "nombre": "Cepillo",
+            "nombre": "Castillo Rascador",
             "precio": 5000,
-            "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_702757-MLA54969147398_042023-F.webp"
+            "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_615459-MLU73936759469_012024-F.webp"
+           
         },
         {
             "id": 6,
