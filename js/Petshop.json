@@ -46,7 +46,7 @@
             "id": 8,
             "nombre": "Dog Selection",
             "precio": 70000,
-            "foto": "https://www.dog-selection.com.ar/wp-content/uploads/2020/11/criadores-adultos-carne-y-vegetales-1.png"
+            "foto" : "https://www.dog-selection.com.ar/wp-content/uploads/2020/11/criadores-adultos-carne-y-vegetales-1.png"
         }
     ],
     "alimentosgato": [
@@ -64,7 +64,7 @@
         },
         {
             "id": 3,
-            "nombre": "Eukanuba Kitten",
+            "nombre": "Eukanuba",
             "precio": 60000,
             "foto": "https://eukanuba.eu/fileadmin/product_images/T90003403_192616_001.png"
         },
@@ -85,12 +85,6 @@
             "nombre": "Excellent",
             "precio": 52000,
             "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2024-03/Excellent_Gatos_Adult.png.webp?itok=GSH6fIFj"
-        },
-        {
-            "id": 7,
-            "nombre": "Felix",
-            "precio": 40000,
-            "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2023-04/cta-felix-megamix.png.webp?itok=mZ9ZMWBv"
         }
     ],
     "accesoriosmascota": [
@@ -99,12 +93,6 @@
             "nombre": "Castillo Rascador",
             "precio": 5000,
             "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_615459-MLU73936759469_012024-F.webp"
-        },
-        {
-            "id": 2,
-            "nombre": "Moises",
-            "precio": 5000,
-            "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_745323-MLA47338274369_092021-F.webp"
         },
         {
             "id": 3,
@@ -141,12 +129,6 @@
             "nombre": "Soga",
             "precio": 5000,
             "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_779186-MLA69723516853_052023-F.webp"
-        },
-        {
-            "id": 7,
-            "nombre": "Laberinto",
-            "precio": 15000,
-            "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_959725-MLU74470970265_022024-F.webp"
         }
     ]
 }
