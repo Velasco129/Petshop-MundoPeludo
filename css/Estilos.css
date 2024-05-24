@@ -16,41 +16,58 @@
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    padding: 5px 10%;
+    padding: 0 3%;
 
 }
-
+ #demo{
+    margin: 0 5%;
+}
 .header .logo {
     cursor: pointer;
 }
 
-.header .nav{
+.header .logo:hover {
+    transform: scale(1.1);
+}
+
+.header .logo .cont-link {
+    display: flex;
+align-items: center;
+}
+
+.header .logo img {
+    height: 40px;
+
+}
+
+.header .logo h2 {
+    color: #2a90b5;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0%;
+}
+
+.header .nav {
     display: flex;
     justify-content: center;
     flex-direction: row;
     width: 100%;
+    align-items: center;
 }
 
 .header .nav a {
     margin: 2%;
-    font-size: 60%;
-    color: #2a90b5;
+    font-size: 70%;
+    color: rgb(42, 144, 181);
     text-decoration: none;
     font-weight: 600;
+    
 }
 
 .header .nav a:hover {
     color: rgb(255, 149, 0);
 }
-
-.header .logo img {
-    height: 70px;
-}
-
-.header .logo img:hover {
-    transform: scale(1.2);
-}
-
 
 body .index {
     background-color: #eff4f6;
@@ -77,11 +94,16 @@ footer {
     background-repeat: no-repeat;
 }
 
+footer h2{
+    font-size: 24px;
+    font-weight: 600;
+}
 footer a img {
     max-width: 2%;
 }
 
 footer p {
+    margin-top: 2%;
     font-size: 65%;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -92,12 +114,18 @@ footer p {
         text-align: center;
         font-size: 70%;
     }
-   
-     .header .nav{
-flex-direction: column;
-align-content: center;
-     }
-   
+
+    .header .nav {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .header .logo .lolo{
+        flex-direction: column;
+    }
+    .header .logo .lolo h2{
+        color: black;
+    }
 }
 
 
@@ -147,11 +175,13 @@ main div .destacadas .marcas {
     max-width: 100%;
 }
 
+.animate__animated.animate__rubberBand {
+    --animate-duration: 2s;
+}
+
 main div .destacadas .marcas img {
     max-width: 100%;
 }
-
-
 
 main div .destacadas .marcas div a img:hover {
     transform: scale(1.15);
@@ -225,30 +255,206 @@ main div div .tienda2 {
 }
 
 @media only screen and (max-width: 650px) {
-    main div .bar-img img{
+    main div .bar-img img {
         max-width: 20%;
     }
+
     main .home {
         background-image: none;
         background-color: #ffffff;
+
+    }
+
+    main div .destacadas .marcas {
+        margin: 1% 5%;
+    }
+    main div .tienda .categorias{
+        margin:  0% 5%;
+    }
+}
+
+/*----Css de Servicios------*/
+
+.pag-servicios {
+    padding: 1% 5%;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section ul /* listado de servicios */
+    {
+    list-style-type: none;
+    }
+
+.nosotros /* contenedor para servicios */
+{
+    box-sizing: border-box;
+    padding: 30px 40px 30px 40px;
+    background-color: rgba(169, 153, 153, 0.2);
+}
+
+section a:hover /* vínculos señalados */
+{
+    background-color:rgb(190, 225, 240);
+    animation: shakeX;
+}
+
+section p /* párrafos */
+{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+section img /* imágenes */
+{
+    box-sizing: border-box;
+    width: 400px;
+    border: 0;
+}
+
+/* --------------- css de nosotros ----------------- */
+
+article /* contenedor para servicios y nosotros */
+{
+    box-sizing: border-box;
+    padding: 30px 40px 30px 40px;
+    font-family: Montserrat;
+}
+
+article p /* párrafos */
+{
+    font-size: 20px;
     
-    }
-    }
-
-/*--------Css de registro------*/
-
-
-main .formulario {
-    display: flex;
-    justify-content: center;
+    font-weight: 600;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-main .form {
-    background-color: darkgrey;
+li img /* imagenes */
+{
+    box-sizing: border-box;
+    height: 100px;
+    border: 0;
 }
 
-/*------Css de Sucursales------*/
+li h5 /* nombres */
+{
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+}
 
+li h6 /* funciones */
+{
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* código para hacer columnas responsive */
+
+.linea::after   /* definición del formato de una línea */
+                /* se emplea el pseudo-elemento after */
+                /* clases cuyo nombre sea "linea" + "" */
+    {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+.menu ul /* definición del formato de los elementos ul dentro de la clase menu */
+    {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+.menu li /* definición del formato de los elementos li dentro de la clase menu */
+    {
+    padding: 10px;
+    margin-bottom: 0px;
+    background-color: #2a90b5;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+
+[class*="col-"] /* definición del formato general de todas las clases de columnas */
+                /* se emplea selector de atributos */
+                /* clases cuyo nombre contenga "col-"" */
+    {
+    float: left;
+    padding: 5px;
+    }
+
+/* definición de anchos de columnas para diferentes dispositivos */
+/* inicialmente se asume que el dispositivo es un teléfono móvil */
+/* 100% corresponde al ancho total de la pantalla */
+
+/* para teléfonos móviles (ancho de ventana reducido) */
+/* todas las clases tendrán definido un ancho igual al 100% del ancho de la ventana */
+/* (las columnas ocuparán el 100% del ancho de la pantalla, por lo tanto aparecerán una debajo de la otra) */
+[class*="col-"]
+    {
+    width: 100%;
+    }
+
+/* para tabletas (ancho de ventana mayor o igual a 600 pixeles) */
+@media only screen and (min-width: 600px) /* media query & breakpoint */
+/* las siguientes propiedades se aplican si:
+    1) el navegador soporta queries (only)
+    2) el dispositivo tiene una pantalla (screen)
+    3) la ventana del navegador es mayor o igual a 600 pixeles (min-width) */
+/* las clases corresponden a columnas cuyos anchos varían entre 1/12 y 12/12 del ancho de la pantalla */
+/* en el cuerpo de la página se seleccion la clase a emplear para cada columna */
+    {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    }
+
+/* para computadoras de escritorio (ancho de ventana mayor o igual a 768 pixeles) */
+@media only screen and (min-width: 768px) /* media query & breakpoint */
+/* las siguientes propiedades se aplican si:
+    1) el navegador soporta queries (only)
+    2) el dispositivo tiene una pantalla (screen)
+    3) la ventana del navegador es mayor o igual a 768 pixeles (min-width) */
+/* las clases corresponden a columnas cuyos anchos varían entre 1/12 y 12/12 del ancho de la pantalla */
+/* en el cuerpo de la página se seleccion la clase a emplear para cada columna */
+    {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    }
+
+    /*------Css de Registro------*/
+main form{
+    margin: 5% 0 5% 7%;
+}
+main .container{
+    margin: 2 5%;
+}
 
 main .sucursales {
     display: flex;
@@ -269,339 +475,9 @@ main .sucursales div {
 }
 
 main .sucursales section {
+ 
     text-align: center;
     margin-bottom: 5%;
     border: 2px solid rgb(0, 0, 0);
     box-shadow: 3px 2px 5px darkgray;
-}
-
-/*----Css de Servicios------*/
-
-/*.pag-servicios {
-    padding: 1% 5%;
-    background-image: url(../img/ocico.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-main section .bar {
-    padding: 50px;
-}
-
-main .pag-servicios .servicios {
-    padding: 3%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main .servicios img {
-    max-width: 25%;
-}
-
-main .servicios>div {
-    padding: 0 5% 2%;
-}
-
-main .servicios .veterinaria {
-    display: flex;
-    justify-content: space-around;
-}
-
-main .servicios .peluqueria {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-}
-
-main .servicios .adopciones {
-    display: flex;
-    justify-content: space-around;
-}
-
-
-main section div .vet-int {
-    margin: 0% 30% 0% 3%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-
-main section div .vet-int-ul {
-    padding: 2%;
-}
-
-main section div .pelu-int {
-    margin: 0% 3% 0% 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-main section div .adop-int {
-    margin: 0% 30% 0% 3%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}*/
-/*-----------codigo de juan------*/
-
-section ul
-
-/* listado de servicios */
-    {
-    list-style-type: none;
-}
-
-section
-
-/* contenedor para servicios */
-    {
-    box-sizing: border-box;
-    padding: 30px 40px 30px 40px;
-}
-
-section a:hover
-
-/* vínculos señalados */
-    {
-    background-color: rgb(190, 225, 240);
-}
-
-section p
-
-/* párrafos */
-    {
-    text-align: justify;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-section img
-
-/* imágenes */
-    {
-    box-sizing: border-box;
-    width: 400px;
-    border: 0;
-}
-
-/* --------------- css de nosotros ----------------- */
-
-article
-
-/* contenedor para servicios y nosotros */
-    {
-    box-sizing: border-box;
-    padding: 30px 40px 30px 40px;
-}
-
-article p
-
-/* párrafos */
-    {
-    text-align: justify;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-
-li img
-
-/* imagenes */
-    {
-    box-sizing: border-box;
-    height: 100px;
-    border: 0;
-}
-
-li h5
-
-/* nombres */
-    {
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 20px;
-}
-
-li h6
-
-/* funciones */
-    {
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 16px;
-}
-
-/* código para hacer columnas responsive */
-
-.linea::after
-
-/* definición del formato de una línea */
-/* se emplea el pseudo-elemento after */
-/* clases cuyo nombre sea "linea" + "" */
-    {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.menu ul
-
-/* definición del formato de los elementos ul dentro de la clase menu */
-    {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu li
-
-/* definición del formato de los elementos li dentro de la clase menu */
-    {
-    padding: 10px;
-    margin-bottom: 0px;
-    background-color: #2a90b5;
-    text-align: center;
-    color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-[class*="col-"]
-
-/* definición del formato general de todas las clases de columnas */
-/* se emplea selector de atributos */
-/* clases cuyo nombre contenga "col-"" */
-    {
-    float: left;
-    padding: 5px;
-}
-
-/* definición de anchos de columnas para diferentes dispositivos */
-/* inicialmente se asume que el dispositivo es un teléfono móvil */
-/* 100% corresponde al ancho total de la pantalla */
-
-/* para teléfonos móviles (ancho de ventana reducido) */
-/* todas las clases tendrán definido un ancho igual al 100% del ancho de la ventana */
-/* (las columnas ocuparán el 100% del ancho de la pantalla, por lo tanto aparecerán una debajo de la otra) */
-[class*="col-"] {
-    width: 100%;
-}
-
-/* para tabletas (ancho de ventana mayor o igual a 600 pixeles) */
-@media only screen and (min-width: 600px)
-/* media query & breakpoint */
-/* las siguientes propiedades se aplican si:
-    1) el navegador soporta queries (only)
-    2) el dispositivo tiene una pantalla (screen)
-    3) la ventana del navegador es mayor o igual a 600 pixeles (min-width) */
-/* las clases corresponden a columnas cuyos anchos varían entre 1/12 y 12/12 del ancho de la pantalla */
-/* en el cuerpo de la página se seleccion la clase a emplear para cada columna */
-    {
-    .col-s-1 {
-        width: 8.33%;
-    }
-
-    .col-s-2 {
-        width: 16.66%;
-    }
-
-    .col-s-3 {
-        width: 25%;
-    }
-
-    .col-s-4 {
-        width: 33.33%;
-    }
-
-    .col-s-5 {
-        width: 41.66%;
-    }
-
-    .col-s-6 {
-        width: 50%;
-    }
-
-    .col-s-7 {
-        width: 58.33%;
-    }
-
-    .col-s-8 {
-        width: 66.66%;
-    }
-
-    .col-s-9 {
-        width: 75%;
-    }
-
-    .col-s-10 {
-        width: 83.33%;
-    }
-
-    .col-s-11 {
-        width: 91.66%;
-    }
-
-    .col-s-12 {
-        width: 100%;
-    }
-}
-
-/* para computadoras de escritorio (ancho de ventana mayor o igual a 768 pixeles) */
-@media only screen and (min-width: 768px)
-/* media query & breakpoint */
-/* las siguientes propiedades se aplican si:
-    1) el navegador soporta queries (only)
-    2) el dispositivo tiene una pantalla (screen)
-    3) la ventana del navegador es mayor o igual a 768 pixeles (min-width) */
-/* las clases corresponden a columnas cuyos anchos varían entre 1/12 y 12/12 del ancho de la pantalla */
-/* en el cuerpo de la página se seleccion la clase a emplear para cada columna */
-    {
-    .col-1 {
-        width: 8.33%;
-    }
-
-    .col-2 {
-        width: 16.66%;
-    }
-
-    .col-3 {
-        width: 25%;
-    }
-
-    .col-4 {
-        width: 33.33%;
-    }
-
-    .col-5 {
-        width: 41.66%;
-    }
-
-    .col-6 {
-        width: 50%;
-    }
-
-    .col-7 {
-        width: 58.33%;
-    }
-
-    .col-8 {
-        width: 66.66%;
-    }
-
-    .col-9 {
-        width: 75%;
-    }
-
-    .col-10 {
-        width: 83.33%;
-    }
-
-    .col-11 {
-        width: 91.66%;
-    }
-
-    .col-12 {
-        width: 100%;
-    }
 }

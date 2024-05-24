@@ -1,108 +1,187 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous"/>
 </head>
-
 <body>
-    <header class="header">
-    
-    </header>
-    <main>      
-        <br>
-            <h1>Registro</h1>
-        <div class="formulario">
-            <form class="form" action="https://html4formulario24178mr.netlify.app/show_data.html">
-                <label for="nombre">Nombre: &nbsp; &nbsp;</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" maxlength="30" size="40">
-                <br>
-                <br>
-                <label for="apellido">Apellido:&nbsp; &nbsp; </label>
-                <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" size="40">
-                <br>
-                <br>
-                <label for="edad">Edad:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
-                <input type="number" name="edad" id="edad" placeholder="Ingrese su edad" size="40">
-                <br>
-                <br>
-                <label for="">Lugar de nacimiento:;</label>
-                <input type="text" name="ciudad" id="ciudad" placeholder="Ingrese su lugar de nacimiento" value="">
-                <br>
-                <br>
-                <label for="fechan">Fecha Nac:&nbsp;</label>
-                <input type="date" id="fechan" name="fechan">
-                <br>
-                <br>
-                <label for="mail">E-mail:&nbsp; &nbsp; &nbsp; &nbsp;</label>
-                <input type="email" name="email" id="email" placeholder="Ingrese su email" size="40">
-                <br>
-                <br>
-                <label for="genero">Genero:&nbsp; &nbsp; &nbsp; </label>
-                <input type="radio" name="genero" value="f">Femenino
-                <input type="radio" name="genero" value="m">Masculino
-                <input type="radio" name="genero" value="o">Otro
-                <br>
-                <br>
-                <label for="genero">Estado civil: </label>
-                <br>
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="genero"
-                    value="f">Soltero/a
-                <br>
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="genero"
-                    value="c">Casado/a
-                <br>
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="genero"
-                    value="d">Divorciado/a
-                <br>
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="genero"
-                    value="v">Viudo/a
-                <br>
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="genero"
-                    value="j">Juntado/a
-                <br>
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="genero"
-                    value="p">Poliamor
-                <br>
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="genero"
-                    value="t">Tramposo/a
-                <br>
-                <br>
-                <label for="conocimientos">Especie de mascota: </label>
+    <header class="header"></header>
+    <main>
+        <form id="form">
+            <div>
+                <label for="username">Nombre y apellido</label>
+                <i class="fas fa-user"></i>
 
-                <input type="checkbox" name="conocimientos" value="h">Perros
-                <input type="checkbox" name="conocimientos" value="c">Gatos
-                <input type="checkbox" name="conocimientos" value="j">Aves
-                <input type="checkbox" name="conocimientos" value="m">Reptiles
-                <input type="checkbox" name="conocimientos" value="p">Peces
-                <input type="checkbox" name="conocimientos" value="ja">Roedores
-                <br>
-                <br>
-                <label for="estudio">Estudios Completos: &nbsp; &nbsp;</label>
-                <select name="estudio" id="estudio">
-                    <option value="p" name="estudio">Primaria</option>
-                    <option value="s" name="estudio">Secundaria</option>
-                    <option value="t" name="estudio">Terciario</option>
-                    <option value="u" name="estudio">Universitario</option>
+                <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Juan Perez"
+                 />
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="email">Correo Electrónico</label>
+                <i class="far fa-envelope"></i>
+
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="abc@gmail.com"
+                 />
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="edad">Edad</label>
+
+                <input
+                    type="number"
+                    name="edad"
+                    id="edad"
+                 />
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="especie-de-mascota">Especie de mascota</label>
+                <i class="fas fa-paw"></i>
+
+                <input
+                    type="checkbox"
+                    name="especie-de-mascota"
+                    id="especie-de-mascota-perro"
+                    value="perro"
+                 /> Perro
+                 <input
+                    type="checkbox"
+                    name="especie-de-mascota"
+                    id="especie-de-mascota-gato"
+                    value="gato"
+                 /> Gato
+                 <input
+                    type="checkbox"
+                    name="especie-de-mascota"
+                    id="especie-de-mascota-otros"
+                    value="otros"
+                 /> Otros
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="tipo-de-servicio">Tipo de servicio</label>
+                <i class="fas fa-cogs"></i>
+
+                <input
+                    type="radio"
+                    name="tipo-de-servicio"
+                    id="servicio-basico"
+                    value="basico"
+                 /> Básico
+                 <input
+                    type="radio"
+                    name="tipo-de-servicio"
+                    id="servicio-premium"
+                    value="premium"
+                 /> Premium
+                 <input
+                    type="radio"
+                    name="tipo-de-servicio"
+                    id="servicio-deluxe"
+                    value="deluxe"
+                 /> Deluxe
+                 
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="sucursal">Sucursal</label>
+                <select id="sucursal" name="sucursal">
+                    <option value="">Selecciona una sucursal</option>
+                    <option value="quilmes">Quilmes</option>
+                    <option value="lomas">Lomas de Zamora</option>
+                    <option value="castelar">Castelar</option>
+                    <option value="tigre">Tigre</option>
+                    <option value="caballito">Caballito</option>
                 </select>
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="captcha">Compruebe que no es un robot: 5 + 3 = ?</label>
+                <input type="text" id="captcha" name="captcha" placeholder="Respuesta" />
+                <div class="error"></div>
+            </div>
 
-                <br><br>
-                <label for="comentarios">Comentarios: </label>
-                <br>
-                <textarea name="comentarios" id="comentarios" cols="30" rows="10"
-                    placeholder="Escriba un comentario"></textarea>
-                <br>
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="submit"
-                    value="Enviar">
-            </form>
-        </div>
-        <br>
+
+            <button id="btn" type="submit">Enviar</button>
+        </form>
+
+    </div>
+
+    <Div class="sucursales">
+        <section>
+            <div><h2>Quilmes</h2></div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3095.305676353651!2d-58.25683750836115!3d-34.7212698827692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e6aa7f0297d%3A0x8a4a3c56304f6fd2!2sLavalle%20565%2C%20B1878%20Quilmes%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1715543662495!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+           <div><h2>Lomas</h2></div> 
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1934.9675355542072!2d-58.401462181495184!3d-34.760741037807996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1715543855499!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+            <div><h2>Castelar</h2></div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3329.95814292355!2d-58.6398819116636!3d-34.64922652884241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1715543900523!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+            <div><h2>Tigre</h2></div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1259.7716391067788!2d-58.57906243416035!3d-34.423705409986844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca5bd1ee2fc7b%3A0x9953cd236629212f!2sAv.%20Caz%C3%B3n%201547%2C%20B1648EXC%20Tigre%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1715543971628!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+           <div><h2>Caballito</h2></div> 
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1505.4603053633778!2d-58.436829104346934!3d-34.618532000514136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca46c58c77af%3A0x4a2ad4e0a25e3bd!2sAv.%20Jos%C3%A9%20Mar%C3%ADa%20Moreno%2057%2C%20C1091AAA%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1715544021950!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </Div>  
     </main>
-    <footer>
-        <p>Sitio desarrollado en codo a codo</p>
-
-    </footer>
+   
+    <footer></footer>
+    <script src="./js/form.js"></script>
     <script src="./js/main.js"></script>
 </body>
-
 </html>
