@@ -6,7 +6,7 @@
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    font-size: 25px;
+    font-size: 24px;
 
 }
 
@@ -17,11 +17,8 @@
     align-items: center;
     height: 100%;
     padding: 0 3%;
+}
 
-}
- #demo{
-    margin: 0 5%;
-}
 .header .logo {
     cursor: pointer;
 }
@@ -69,25 +66,8 @@ align-items: center;
     color: rgb(255, 149, 0);
 }
 
-body .index {
-    background-color: #eff4f6;
-    padding-bottom: 3%;
-    max-width: 100%;
-}
-
-main .portada {
-    height: 400px;
-    overflow: hidden;
-}
-
-main .portada img {
-    max-width: 100%;
-    position: relative;
-    align-self: center;
-}
-
 footer {
-    background-color: #d1e9f6;
+    background-color: #90bfd8;
     padding: 15px;
     text-align: center;
     border-top: 5px solid rgb(171, 166, 166);
@@ -108,6 +88,92 @@ footer p {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*-----inicio-----*/
+
+body .index {
+    background-color: #eff4f6;
+    padding-bottom: 3%;
+    max-width: 100%;
+}
+
+main .portada {
+    height: 400px;
+    overflow: hidden;
+}
+
+main .portada img {
+    max-width: 100%;
+    position: relative;
+    align-self: center;
+}
+
+/*----carruseel----*/
+
+.carousel-inner {
+    max-width: 80%; /* Ajusta esto según sea necesario */
+    margin: auto;
+  }
+
+.carousel-inner img {
+    width: 100%;
+    height: auto; /* Mantiene la proporción de aspecto */
+  }
+
+/*-----estilo busqueda de perro-----*/
+
+#app button,select,label,option{
+    margin: 5px;
+    font-size: 0.7rem;
+}
+#app button{
+    padding: 5px 10px;      
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);    
+}
+#app button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+#app button:active {
+    background-color: #004085;
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+.tarjeta img{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tarjeta{
+    width: 250px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    gap: 5px;
+
+}
+.tarjeta img{
+    width: 100%;
+    border-radius: 5px;
+}
+.tarjeta h5{
+    font-size: 1.5rem;
+}
+
+/*----media para el nav-----*/
 
 @media only screen and (max-width: 650px) {
     .header .nav a {
@@ -120,11 +186,14 @@ footer p {
         align-content: center;
     }
 
-    .header .logo .lolo{
+    .header .logo .cont-link{
         flex-direction: column;
     }
-    .header .logo .lolo h2{
+    .header .logo .cont-link h2{
         color: black;
+    }
+    footer a img {
+        max-width: 6%;
     }
 }
 
@@ -286,7 +355,7 @@ section ul /* listado de servicios */
     list-style-type: none;
     }
 
-.nosotros /* contenedor para servicios */
+section /* contenedor para servicios */
 {
     box-sizing: border-box;
     padding: 30px 40px 30px 40px;
@@ -313,7 +382,10 @@ section img /* imágenes */
     width: 400px;
     border: 0;
 }
+@media only screen and (max-width: 650px){
+   
 
+}
 /* --------------- css de nosotros ----------------- */
 
 article /* contenedor para servicios y nosotros */
@@ -403,7 +475,7 @@ li h6 /* funciones */
     }
 
 /* para tabletas (ancho de ventana mayor o igual a 600 pixeles) */
-@media only screen and (min-width: 600px) /* media query & breakpoint */
+@media only screen and (min-width: 631px) /* media query & breakpoint */
 /* las siguientes propiedades se aplican si:
     1) el navegador soporta queries (only)
     2) el dispositivo tiene una pantalla (screen)
@@ -434,21 +506,13 @@ li h6 /* funciones */
 /* las clases corresponden a columnas cuyos anchos varían entre 1/12 y 12/12 del ancho de la pantalla */
 /* en el cuerpo de la página se seleccion la clase a emplear para cada columna */
     {
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
+    .colo-2 {width: 16.66%;}
     .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+
     }
 
     /*------Css de Registro------*/
+    
 main form{
     margin: 5% 0 5% 7%;
 }

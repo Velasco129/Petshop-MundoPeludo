@@ -1,0 +1,306 @@
+[
+  {
+    "nombre": "Bouvier des Flandres",
+    "pais_de_origen": "Bélgica",
+    "esperanza_de_vida": "10-12 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Protectivo,Obediente, Leal, Valiente, Afectuoso",
+    "imagen": "https://cdn2.thedogapi.com/images/Byd0xl5VX.jpg"
+  },
+  {
+    "nombre": "Afghan Hound",
+    "pais_de_origen": "Afganistán, Reino Unido",
+    "esperanza_de_vida": "10-13 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Amistoso, Vivaz, Afectuoso, Leal, Confidente",
+    "imagen": "https://cdn2.thedogapi.com/images/hMyT4CDXR.jpg"
+  },
+  {
+    "nombre": "Airedale Terrier",
+    "pais_de_origen": "Reino Unido",
+    "esperanza_de_vida": "10-13 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Obediente, Valiente, Gentil, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/1-7cgoZSh.jpg"
+  },
+  {
+    "nombre": "Alaskan Malamute",
+    "pais_de_origen": "Estados Unidos",
+    "esperanza_de_vida": "12-15 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Aloof, Activo, Curioso, Afectuoso, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/dW5UucTIW.jpg"
+  },
+  {
+    "nombre": "Bluetick Coonhound",
+    "pais_de_origen": "Estados Unidos",
+    "esperanza_de_vida": "10-12 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Amistoso, Curioso, Activo, Leal, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/rJxieg9VQ.jpg"
+  },
+  {
+    "nombre": "Affenpinscher",
+    "pais_de_origen": "Alemania, Francia",
+    "esperanza_de_vida": "10-12 años",
+    "tamaño": "Pequeño",
+    "caracteristicas": "Aloof, Activo, Curioso, Afectuoso, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/BJa4kxc4X.jpg"
+  },
+  {
+    "nombre": "American Bully",
+    "pais_de_origen": "Estados Unidos",
+    "esperanza_de_vida": "8-15 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Amistoso, Vivaz, Afectuoso, Leal, Confidente",
+    "imagen": "https://cdn2.thedogapi.com/images/sqQJDtbpY.jpg"
+  },
+  {
+    "nombre": "American Eskimo Dog",
+    "pais_de_origen": "Estados Unidos",
+    "esperanza_de_vida": "12-15 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Obediente, Valiente, Gentil, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/Bymjyec4m.jpg"
+  },
+  {
+    "nombre": "American Foxhound",
+    "pais_de_origen": "Estados Unidos",
+    "esperanza_de_vida": "10-12 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Obediente, Confidente, Inteligente, Dominante, Territorial",
+    "imagen": "https://cdn2.thedogapi.com/images/S14n1x9NQ.jpg"
+  },
+  {
+    "nombre": "American Bulldog",
+    "pais_de_origen": "Estados Unidos",
+    "esperanza_de_vida": "10-12 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Aloof, Activo, Curioso, Afectuoso, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/pk1AAdloG.jpg"
+  },
+  {
+    "nombre": "American Staffordshire Terrier",
+    "pais_de_origen": "Estados Unidos",
+    "esperanza_de_vida": "12-16 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Obediente, Confidente, Inteligente, Dominante, Territorial",
+    "imagen": "https://cdn2.thedogapi.com/images/rJIakgc4m.jpg"
+  },
+  {
+    "nombre": "American Water Spaniel",
+    "pais_de_origen": "Estados Unidos",
+    "esperanza_de_vida": "10-14 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Amistoso, Vivaz, Afectuoso, Leal, Confidente",
+    "imagen": "https://cdn2.thedogapi.com/images/SkmRJl9VQ.jpg"
+  },
+  {
+    "nombre": "American Pit Bull Terrier",
+    "pais_de_origen": "Estados Unidos",
+    "esperanza_de_vida": "12-16 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Obediente, Valiente, Gentil, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/HkC31gcNm.png"
+  },
+  {
+    "nombre": "Australian Cattle Dog",
+    "pais_de_origen": "Australia",
+    "esperanza_de_vida": "12-14 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Aloof, Activo, Curioso, Afectuoso, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/IBkYVm4v1.jpg"
+  },
+  {
+    "nombre": "Anatolian Shepherd Dog",
+    "pais_de_origen": "Turquía",
+    "esperanza_de_vida": "11-13 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Obediente, Valiente, Gentil, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/BJcNbec4X.jpg"
+  },
+  {
+    "nombre": "Australian Shepherd",
+    "pais_de_origen": "Estados Unidos",
+    "esperanza_de_vida": "12-15 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Aloof, Activo, Curioso, Afectuoso, Inteligente",
+    "imagen": "https://cdn.britannica.com/22/234622-050-4D6BD081/Australian-shepherd-dog-red-merle.jpg"
+  },
+  {
+    "nombre": "Australian Terrier",
+    "pais_de_origen": "Australia",
+    "esperanza_de_vida": "12-15 años",
+    "tamaño": "Pequeño",
+    "caracteristicas": "Obediente, Valiente, Gentil, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/r1Ylge5Vm.jpg"
+  },
+  {
+    "nombre": "Azawakh",
+    "pais_de_origen": "Mali, Níger, Burkina Faso",
+    "esperanza_de_vida": "10-13 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Amistoso, Vivaz, Afectuoso, Leal, Confidente",
+    "imagen": "https://cdn2.thedogapi.com/images/SkvZgx94m.jpg"
+  },
+  {
+    "nombre": "Australian Kelpie",
+    "pais_de_origen": "Australia",
+    "esperanza_de_vida": "10-14 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Amistoso, Vivaz, Afectuoso, Leal, Confidente",
+    "imagen": "https://cdn2.thedogapi.com/images/Hyq1ge9VQ.jpg"
+  },
+  {
+    "nombre": "Basenji",
+    "pais_de_origen": "Congo",
+    "esperanza_de_vida": "12-14 años",
+    "tamaño": "Pequeño",
+    "caracteristicas": "Aloof, Activo, Curioso, Afectuoso, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/H1dGlxqNQ.jpg"
+  },
+  {
+    "nombre": "Basset Hound",
+    "pais_de_origen": "Francia, Reino Unido",
+    "esperanza_de_vida": "12-15 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Leal, Devoto, Amoroso, Gentil, Amistoso",
+    "imagen": "https://cdn2.thedogapi.com/images/Sy57xx9EX.jpg"
+  },
+  {
+    "nombre": "Barbet",
+    "pais_de_origen": "Francia",
+    "esperanza_de_vida": "13-15 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Obediente, Valiente, Gentil, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/HyWGexcVQ.jpg"
+  },
+  {
+    "nombre": "Bearded Collie",
+    "pais_de_origen": "Escocia",
+    "esperanza_de_vida": "12-14 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Confidente, Amistoso, Inteligente, Activo, Afectuoso",
+    "imagen": "https://cdn2.thedogapi.com/images/A09F4c1qP.jpg"
+  },
+  {
+    "nombre": "Beauceron",
+    "pais_de_origen": "Francia",
+    "esperanza_de_vida": "10-12 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Obediente, Valiente, Gentil, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/HJQ8ge5V7.jpg"
+  },
+  {
+    "nombre": "Bedlington Terrier",
+    "pais_de_origen": "Reino Unido",
+    "esperanza_de_vida": "14-16 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Afectuoso, Vivaz, Caroñosa, Amiable",
+    "imagen": "https://cdn2.thedogapi.com/images/ByK8gx947.jpg"
+  },
+  {
+    "nombre": "Beagle",
+    "pais_de_origen": "Reino Unido",
+    "esperanza_de_vida": "13-16 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Amiable, Determinado, Alegre, Valiente, Inteligente, Vivaz",
+    "imagen": "https://cdn2.thedogapi.com/images/Syd4xxqEm.jpg"
+  },
+  {
+    "nombre": "Belgian Tervuren",
+    "pais_de_origen": "Bélgica",
+    "esperanza_de_vida": "12-14 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Energético, Obediente, Inteligente, Protectivo, Afectuoso",
+    "imagen": "https://cdn2.thedogapi.com/images/B1KdxlcNX.jpg"
+  },
+  {
+    "nombre": "Bernese Mountain Dog",
+    "pais_de_origen": "Suiza",
+    "esperanza_de_vida": "7-10 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Amistoso, Confidente, Afectuoso, Leal, Gentil",
+    "imagen": "https://cdn2.thedogapi.com/images/S1fFlx5Em.jpg"
+  },
+  {
+    "nombre": "Belgian Malinois",
+    "pais_de_origen": "Bélgica",
+    "esperanza_de_vida": "12-14 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Obediente, Leal, Confidente, Inteligente, Vigilante",
+    "imagen": "https://cdn2.thedogapi.com/images/r1f_ll5VX.jpg"
+  },
+  {
+    "nombre": "Black and Tan Coonhound",
+    "pais_de_origen": "Estados Unidos",
+    "esperanza_de_vida": "10-12 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Amistoso, Energético, Afectuoso, Gentil, Tolerante, Confiado",
+    "imagen": "https://cdn2.thedogapi.com/images/HJAFgxcNQ.jpg"
+  },
+  {
+    "nombre": "Bloodhound",
+    "pais_de_origen": "Bélgica, Reino Unido, Francia",
+    "esperanza_de_vida": "10-12 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Amiable, Curioso, Vivaz, Gentil, Tolerante, Amistoso",
+    "imagen": "https://cdn2.thedogapi.com/images/Skdcgx9VX.jpg"
+  },
+  {
+    "nombre": "Bichon Frise",
+    "pais_de_origen": "Francia, Bélgica",
+    "esperanza_de_vida": "14-15 años",
+    "tamaño": "Pequeño",
+    "caracteristicas": "Afectuoso, Juguetón, Gentil, Sensitivo, Alegre",
+    "imagen": "https://cdn2.thedogapi.com/images/HkuYlxqEQ.jpg"
+  },
+  {
+    "nombre": "Boerboel",
+    "pais_de_origen": "Sudáfrica",
+    "esperanza_de_vida": "10-12 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Obediente, Confidente, Inteligente, Dominante, Territorial",
+    "imagen": "https://cdn2.thedogapi.com/images/HyOjge5Vm.jpg"
+  },
+  {
+    "nombre": "Akita",
+    "pais_de_origen": "Japón",
+    "esperanza_de_vida": "10-14 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Obediente, Confidente, Inteligente, Dominante, Territorial",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Akita_Americano_v3.jpg"
+  },
+  {
+    "nombre": "Border Collie",
+    "pais_de_origen": "Reino Unido",
+    "esperanza_de_vida": "12-16 años",
+    "tamaño": "Mediano",
+    "caracteristicas": "Inteligente, Afectuoso, Energético, Obediente",
+    "imagen": "https://cdn2.thedogapi.com/images/sGQvQUpsp.jpg"
+  },
+  {
+    "nombre": "Border Terrier",
+    "pais_de_origen": "Reino Unido",
+    "esperanza_de_vida": "12-15 años",
+    "tamaño": "Pequeño",
+    "caracteristicas": "Plucky, Amistoso, Afectuoso, Vivaz, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/HJOpge9Em.jpg"
+  },
+  {
+    "nombre": "Boston Terrier",
+    "pais_de_origen": "Estados Unidos",
+    "esperanza_de_vida": "11-13 años",
+    "tamaño": "Pequeño",
+    "caracteristicas": "Amistoso, Vivaz, Afectuoso, Leal, Inteligente",
+    "imagen": "https://cdn2.thedogapi.com/images/rkZRggqVX.jpg"
+  },
+  {
+    "nombre": "Borzoi",
+    "pais_de_origen": "Rusia",
+    "esperanza_de_vida": "10-12 años",
+    "tamaño": "Grande",
+    "caracteristicas": "Amiable, Leal, Confidente, Gentil, Independiente",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/8/87/Borzoi_female.jpg"
+  }
+]
