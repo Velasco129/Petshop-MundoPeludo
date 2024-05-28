@@ -67,7 +67,6 @@ let username = id("username"),
   successIcon = classes("success-icon"),
   failureIcon = classes("failure-icon");
 
-/*-- desde aca --*/
 let engine = (id, serial, message) => {
   if (id.value.trim() === "") {
     errorMsg[serial].innerHTML = message;
