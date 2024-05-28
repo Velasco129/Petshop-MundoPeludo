@@ -515,6 +515,8 @@ form {
     border: 2px solid, rgba(0, 0, 0, 0.2);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 50px;
+    margin: 5% 0 5% 0%;
+    text-align: center;
 }
 
 .titulo {
@@ -523,11 +525,9 @@ form {
     margin-bottom: 20px;
 }
 form div input {
-    height: 40px;
     border-radius: 8px;
     outline: none;
     border: 2px solid #c4c4c4;
-    padding: 0 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   }
 #especie{
@@ -589,7 +589,7 @@ button {
 
     
 main form{
-    margin: 5% 0 5% 0%;
+    
 }
 main .container{
     margin: 2 5%;
@@ -638,6 +638,7 @@ form input{
 form div{
     font-size: 10px;
 }
+
    div iframe{
     max-width: 80%;
    }
