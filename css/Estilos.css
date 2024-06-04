@@ -976,14 +976,13 @@ main .sucursales section {
     div .etiqueta {
         padding: 0;
     }
+    
 
     label {
-        font-size: 10px;
+        font-size: 15px;
     }
 
-    main .sucursales {
-        display: block;
-    }
+   
 
     form input {
         font-size: 10px;
@@ -994,14 +993,20 @@ main .sucursales section {
     }
 
     div iframe {
-        max-width: 80%;
+        max-width: 100%;
     }
 
     main .sucursales section {
         box-shadow: none;
+        max-width: 90%;
     }
 
     form {
-        padding: 50px 0 50px 0;
+        padding: 0 0 0 0;
+        max-width: 90%;
+    }
+    #sucursal{
+        max-width: 85%;
+        font-size: 15px;
     }
 }
