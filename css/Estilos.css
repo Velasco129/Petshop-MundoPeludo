@@ -7,16 +7,16 @@
     font-weight: 900;
     font-style: normal;
     font-size: 24px;
-
 }
 
 .header {
-    background-color: #eff4f7;
+    background-color: #1e81b0;
+    /*cambio de fondo*/
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    padding: 0 3%;
+    padding: 0 10%;
 }
 
 .header .logo {
@@ -29,7 +29,7 @@
 
 .header .logo .cont-link {
     display: flex;
-align-items: center;
+    align-items: center;
 }
 
 .header .logo img {
@@ -38,11 +38,16 @@ align-items: center;
 }
 
 .header .logo h2 {
-    color: #2a90b5;
+    color: #eeeee4;
     text-align: center;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 0%;
+    
+}
+
+.header .logo h2:hover {
+    color: #DD761C;
 }
 
 .header .nav {
@@ -51,33 +56,36 @@ align-items: center;
     flex-direction: row;
     width: 100%;
     align-items: center;
+    background-color: #1e81b0;
+    
 }
 
 .header .nav a {
     margin: 2%;
     font-size: 70%;
-    color: rgb(42, 144, 181);
+    color: #eeeee4;
     text-decoration: none;
     font-weight: 600;
-    
+
 }
 
 .header .nav a:hover {
-    color: rgb(255, 149, 0);
+    color: #DD761C;
 }
 
 footer {
-    background-color: #90bfd8;
+    background-color: #1e81b0;
     padding: 15px;
     text-align: center;
-    border-top: 5px solid rgb(171, 166, 166);
     background-repeat: no-repeat;
+    color: #eeeee4;
 }
 
-footer h2{
+footer h2 {
     font-size: 24px;
     font-weight: 600;
 }
+
 footer a img {
     max-width: 2%;
 }
@@ -85,14 +93,15 @@ footer a img {
 footer p {
     margin-top: 2%;
     font-size: 65%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 /*-----inicio-----*/
 
 body .index {
-    background-color: #eff4f6;
-    padding-bottom: 3%;
+    background-color: #EFF4F7;    
     max-width: 100%;
 }
 
@@ -110,67 +119,176 @@ main .portada img {
 /*----carruseel----*/
 
 .carousel-inner {
-    max-width: 80%; /* Ajusta esto según sea necesario */
+    padding: 0px 0 20px;
+    max-width: 100%;
+    /* Ajusta esto según sea necesario */
     margin: auto;
-  }
+}
 
 .carousel-inner img {
     width: 100%;
-    height: auto; /* Mantiene la proporción de aspecto */
-  }
+    height: auto;
+    /* Mantiene la proporción de aspecto */
+}
+
+@media only screen and (max-width: 650px) {
+    .carousel-inner {
+        padding: 20px 0 20px;
+        max-width: 100%;
+        /* Ajusta esto según sea necesario */
+        margin: auto;
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: 200px;
+        /* Mantiene la proporción de aspecto */
+    }
+    main .presentacion{
+    padding: 0;
+    }
+    #app .d-flex{
+        flex-direction: column;
+        align-content: center;
+    }
+    #app .tarjeta{
+        min-width: 90%;
+        margin: 5px;
+    }
+
+    main .inicio-tarjetas{
+    padding: 0 0 0;
+    }
+}
+/* ----------------presentacion ----------------*/
+
+.presentacion {
+    max-width: 80%;
+    text-align: center;
+    margin: 35px auto 0;
+    padding: 50px 100px;
+    color: #0F1B1D;
+}
+
+.presentacion h2 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.presentacion p {
+    font-size: 0.8rem;
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+
 
 /*-----estilo busqueda de perro-----*/
 
-#app button,select,label,option{
-    margin: 5px;
-    font-size: 0.7rem;
+.inicio-tarjetas {
+    width: 100%;
+    margin: auto;
+    padding: 30px 10% 20px;
+    background-color: #EFF4F7;    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
 }
-#app button{
-    padding: 5px 10px;      
-    color: #fff;
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);    
-}
-#app button:hover {
-    background-color: #0056b3;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-  }
-#app button:active {
-    background-color: #004085;
-    transform: translateY(0);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
 
-.tarjeta img{
-    width: 300px;
-    height: auto;
-    object-fit: cover;
+.menu-busqueda{    
+    text-align: center;
+    
 }
-.d-flex{
+
+
+#app .canina{    
+    font-size: 1.2rem;
+    font-weight: bold;    
+    color: #0F1B1D;
+    padding: 0px 0px 10;
+    max-width: 100%;
+    text-align: center;
+}
+
+#app label {
+    font-weight: normal;
+    color: #0F1B1D;
+    max-width: 20%;
+    font-size: 0.8rem;
+    margin: 5px 10px 0px;
+    padding: 8px 12px 0px;
+    display: inline-block;
+}
+
+#app button {
+    margin: 5px 10px 10px;
+    padding: 5px 8px;
+    font-size: 0.6rem;
+    font-weight: normal;
+    border: 1px solid #EFF4F7;
+    border-radius: 8px;    
+    cursor: pointer;
+    display: inline-block;
+    background-color: #0F1B1D;
+    color: #FFFBF0;
+    border: none;
+    transition: background-color 0.3s;
+    
+}
+
+#app select, option {
+    width: 30%;
+    font-size: 0.7rem;
+    color: #0F1B1D;
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #EFF4F7; 
+}
+
+#app button:hover {
+    background-color: #6DC5D1;
+}
+
+#app .d-flex {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.tarjeta{
-    width: 250px;
-    padding: 15px;
-    border: 2px solid black;
-    border-radius: 10px;
-    text-align: center;
-    margin: 10px;
-    gap: 5px;
+    justify-content: center;
+    gap: 15px;
 
 }
-.tarjeta img{
-    width: 100%;
-    border-radius: 5px;
+
+#app .tarjeta {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #0F1B1D;
+    border-radius: 12px;
+    background-color: #0f1b1ddc;    
+    color: #EFF4F7;
 }
-.tarjeta h5{
-    font-size: 1.5rem;
+
+#app .tarjeta img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+#app .tarjeta h5 {
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: normal;
+    text-align: center;
+    color: #FEB941;
+}
+
+#app .tarjeta p {
+    margin: 0;    
+    font-size: 15px;
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: #EFF4F7;
+    
 }
 
 /*----media para el nav-----*/
@@ -186,15 +304,77 @@ main .portada img {
         align-content: center;
     }
 
-    .header .logo .cont-link{
+    .header .logo .cont-link {
         flex-direction: column;
     }
-    .header .logo .cont-link h2{
-        color: black;
-    }
+
     footer a img {
         max-width: 6%;
     }
+}
+
+/* ------------ tarjetas-1------------------*/
+
+.contenedor-tarjetas {
+    display: flex;
+    background-color: #dd761ca1;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.tarjeta-1 {
+    border: 1px solid #0F1B1D;
+    border-radius: 12px;
+    background-color: #EFF4F7;
+    size: cover;
+    background-position: center;
+    
+    margin: 20px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+
+.tarjeta-1 h2 {
+    color: #0F1B1D;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.tarjeta-1 p {
+    color: #0F1B1D;
+    font-size: 0.7rem;   
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contenedor-tarjetas .button-1 {
+    display: inline-block;
+    padding: 5px 10px;
+    
+    color:#1D0D00;
+    text-decoration: none;
+      
+    font-size: 0.7rem;
+    
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contenedor-tarjetas .button-1:hover {
+    color: #DD761C;    
+}
+
+/* ------------------- links-----------------*/
+
+.servicios-link a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #58a9ff;
 }
 
 
@@ -206,7 +386,7 @@ body .prod {
 }
 
 main .home {
-    background-image: url(../img/Img-productos/lindo-grupo-animales.png);
+    background-color: #EFF4F7;
     justify-content: center;
 
 }
@@ -220,98 +400,136 @@ main div .bar-img {
     display: flex;
     justify-content: center;
     max-width: 100%;
+    border-radius: 5px;
     background-color: #F1F5E4;
 }
 
 main div .bar-img img {
     margin: 1% 3%;
     max-width: 10%;
+    border: 2px solid gray;
+    border-radius: 5px;
 }
 
 main div .destacadas {
     display: flex;
     flex-direction: column;
-    margin: 1% 0% 2% 0%;
+    margin: 0% 10% 1%;
     text-align: center;
     max-width: 100;
+    gap: 30px;
 }
 
 main div .destacadas .marcas {
     display: flex;
-    margin: 1% 20%;
-    background-color: #ffffff;
+    margin: 0px 20%;
     justify-content: space-around;
     max-width: 100%;
+    gap: 15px;
 }
 
 .animate__animated.animate__rubberBand {
     --animate-duration: 2s;
 }
+.animate__animated{
+    color: #0F1B1D;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 50px 0 0px;
+}
 
 main div .destacadas .marcas img {
     max-width: 100%;
+    border: 1px solid #0F1B1D;
+    border-radius: 5px;
+}
+main div .destacadas .marcas div {
+    border-radius: 12px;
+    padding: 2px;
 }
 
 main div .destacadas .marcas div a img:hover {
     transform: scale(1.15);
-    border: 2px solid darkcyan;
+    border: 1px solid #DD761C;
+    border-radius: 12px;
 }
 
-main div .destacadas .marcas div {
-    border: 2px solid darkgray
-}
+
 
 main div .tienda {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-direction: column;
+   
 }
 
 main div .tienda .categorias {
-    margin: 7% 0 7% 0;
-    /* border: 1PX solid blue;*/
+    margin: 50px 10% 10px;    
     text-align: center;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    overflow: auto;
+    max-width: 80%;
+    /*border: 1px solid black;*/
+    border-radius: 5px;
 }
 
 main div .tienda .categorias>h2 {
-    background-color: rgba(214, 207, 207, 0.5);
+
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #eeeee4;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0F1B1D;
 }
 
-main div div .cajaproductos {
-    margin-top: 2%;
-    background-color: rgba(255, 255, 255, .5);
+main div div .cajaproductos {    
+    background-color: #ffffff;
     display: flex;
-    /* border: 2px solid green;*/
-    max-width: 90%;
+    padding: 2% 0%;
     overflow-x: scroll;
-    padding: 1% 0%;
-    overflow-y: hidden;
+    border-radius: 10px 10px 0 0;
+
 }
 
 main div div .cajaproductos .itemproducto {
-    /*  border: 1px solid red;*/
-    padding: 1%;
-    width: 90%;
+   box-shadow: 1px 1px 5px gray;
+   border-radius: 7px;
+   margin: 0 5px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  padding: 5px 0;
+
 }
 
+.itemproducto h3 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: #0f1b1ddc;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 3px;
+}
 main div div .cajaproductos .itemproducto:hover {
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
 
-main div div .cajaproductos .itemproducto h2 {
-    font-size: 80%;
+.itemproducto h2 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 3px;
+    border: 3px solid #0f1b1ddc;
+    background-color: #0f1b1ddc;
+    border-radius: 5px ;
+    color: #ffffff;
 }
 
-main div div .cajaproductos .itemproducto h3 {
-    font-size: 75%;
-}
+
 
 main div div .cajaproductos img {
-    max-height: 300px;
+    height: 200px;
+    width: 180px;
+    object-fit: contain;
 }
 
 main div div .tienda2 {
@@ -333,131 +551,233 @@ main div div .tienda2 {
         background-color: #ffffff;
 
     }
-
+    main div .tienda{
+        align-items: center;
+    }
     main div .destacadas .marcas {
         margin: 1% 5%;
     }
-    main div .tienda .categorias{
-        margin:  0% 5%;
+    main div div .cajaproductos{
+        max-width: 380px;
+    }
+    main div .tienda .categorias {
+        margin: 0% 5%;
+      
     }
 }
 
+@media only screen and (max-width: 650px){
+
+}
 /*----Css de Servicios------*/
 
 .pag-servicios {
-    padding: 1% 5%;
-    background-color: #ffffff;
-    background-repeat: no-repeat;
+    background-color: #EFF4F7;
     background-size: cover;
+    text-align: center;
 }
-section ul /* listado de servicios */
+
+.pag-servicios .animate__animated{
+    background-color: #eeeee4;
+    max-width: 100%;
+    color: #0F1B1D;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 20px;    
+}
+
+
+.servicios-link {
+    padding: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    
+}
+
+.servicios-link h3 {
+    margin-bottom: 20px;
+    color: #0F1B1D;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.servicios-link ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+.servicios-link li {
+    
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #0F1B1D;
+}
+
+.servicios-link a {
+    text-decoration: none;
+    color: #EFF4F7;
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 200;
+    
+}
+
+.servicios-link a:hover {
+    color: #009fbb;
+}
+
+section h3{
+    color: #0F1B1D;
+    padding-top: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+section p
+
+/* párrafos */
     {
-    list-style-type: none;
-    }
+    color: #0F1B1D;
+    padding: 25px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    max-width: 80%;
+    margin: auto;
+}
 
-section /* contenedor para servicios */
-{
+section img
+
+/* imágenes */
+    {
     box-sizing: border-box;
-    padding: 30px 40px 30px 40px;
-    background-color: rgba(169, 153, 153, 0.2);
-}
-
-section a:hover /* vínculos señalados */
-{
-    background-color:rgb(190, 225, 240);
-    animation: shakeX;
-}
-
-section p /* párrafos */
-{
-    font-size: 20px;
-    text-align: justify;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-section img /* imágenes */
-{
-    box-sizing: border-box;
+    border-radius: 12px;
     width: 400px;
     border: 0;
 }
 
 /* --------------- css de nosotros ----------------- */
 
-article /* contenedor para servicios y nosotros */
-{
+article
+
+/* contenedor para servicios y nosotros */
+    {
     box-sizing: border-box;
-    padding: 30px 40px 30px 40px;
-    font-family: Montserrat;
+    padding: 30px 0px 40px;
+    max-width: 80%;
+    margin: auto;
+    
+
+}
+article h3{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
 }
 
-article p /* párrafos */
-{
-    font-size: 20px;
-    
-    font-weight: 600;
-    text-align: justify;
+article p
+
+/* párrafos */
+    {
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
-li img /* imagenes */
-{
+li img
+
+/* imagenes */
+    {
     box-sizing: border-box;
     height: 100px;
     border: 0;
+    border-radius: 12px;
 }
 
-li h5 /* nombres */
-{
+li h5
+
+/* nombres */
+    {
     box-sizing: border-box;
     text-align: center;
-    font-size: 20px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 5px 0 10px;
 }
 
-li h6 /* funciones */
-{
+li h6
+
+/* funciones */
+    {
     box-sizing: border-box;
     text-align: center;
-    font-size: 16px;
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 300;
 }
 
 /* código para hacer columnas responsive */
 
-.linea::after   /* definición del formato de una línea */
-                /* se emplea el pseudo-elemento after */
-                /* clases cuyo nombre sea "linea" + "" */
+.linea::after
+
+/* definición del formato de una línea */
+/* se emplea el pseudo-elemento after */
+/* clases cuyo nombre sea "linea" + "" */
     {
     content: "";
     clear: both;
     display: table;
-    }
+}
 
-.menu ul /* definición del formato de los elementos ul dentro de la clase menu */
+.menu ul
+
+/* definición del formato de los elementos ul dentro de la clase menu */
     {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    }
+    
+    
+}
 
-.menu li /* definición del formato de los elementos li dentro de la clase menu */
+.menu li
+
+/* definición del formato de los elementos li dentro de la clase menu */
     {
     padding: 10px;
+    border-radius: 12px;
     margin-bottom: 0px;
-    background-color: #2a90b5;
+    background-color: #0f1b1ddc;
     text-align: center;
     color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    }
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
 
-[class*="col-"] /* definición del formato general de todas las clases de columnas */
-                /* se emplea selector de atributos */
-                /* clases cuyo nombre contenga "col-"" */
+.menu li h5{
+    color: #DD761C;
+}
+
+[class*="col-"]
+
+/* definición del formato general de todas las clases de columnas */
+/* se emplea selector de atributos */
+/* clases cuyo nombre contenga "col-"" */
     {
     float: left;
     padding: 5px;
-    }
+}
 
 /* definición de anchos de columnas para diferentes dispositivos */
 /* inicialmente se asume que el dispositivo es un teléfono móvil */
@@ -466,13 +786,13 @@ li h6 /* funciones */
 /* para teléfonos móviles (ancho de ventana reducido) */
 /* todas las clases tendrán definido un ancho igual al 100% del ancho de la ventana */
 /* (las columnas ocuparán el 100% del ancho de la pantalla, por lo tanto aparecerán una debajo de la otra) */
-[class*="col-"]
-    {
+[class*="col-"] {
     width: 100%;
-    }
+}
 
 /* para tabletas (ancho de ventana mayor o igual a 600 pixeles) */
-@media only screen and (min-width: 631px) /* media query & breakpoint */
+@media only screen and (min-width: 631px)
+/* media query & breakpoint */
 /* las siguientes propiedades se aplican si:
     1) el navegador soporta queries (only)
     2) el dispositivo tiene una pantalla (screen)
@@ -480,16 +800,31 @@ li h6 /* funciones */
 /* las clases corresponden a columnas cuyos anchos varían entre 1/12 y 12/12 del ancho de la pantalla */
 /* en el cuerpo de la página se seleccion la clase a emplear para cada columna */
     {
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-
+    .col-s-1 {
+        width: 8.33%;
     }
 
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+}
+
 /* para computadoras de escritorio (ancho de ventana mayor o igual a 768 pixeles) */
-@media only screen and (min-width: 768px) /* media query & breakpoint */
+@media only screen and (min-width: 768px)
+/* media query & breakpoint */
 /* las siguientes propiedades se aplican si:
     1) el navegador soporta queries (only)
     2) el dispositivo tiene una pantalla (screen)
@@ -497,21 +832,30 @@ li h6 /* funciones */
 /* las clases corresponden a columnas cuyos anchos varían entre 1/12 y 12/12 del ancho de la pantalla */
 /* en el cuerpo de la página se seleccion la clase a emplear para cada columna */
     {
-    .colo-2 {width: 16.66%;}
-    .col-4 {width: 33.33%;}
-
-    }
-    @media only screen and (max-width: 650px){
-        li img{height: 80px;}
+    .colo-2 {
+        width: 16.66%;
     }
 
-    /*------Css de Registro------*/
+    .col-4 {
+        width: 33.33%;
+    }
 
-    
+}
+
+@media only screen and (max-width: 650px) {
+    section img {
+        max-width: 100%;
+    }
+}
+
+/*------Css de Registro------*/
+
+
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 10px;
     border: 2px solid, rgba(0, 0, 0, 0.2);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 50px;
@@ -524,53 +868,58 @@ form {
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 form div input {
     border-radius: 8px;
     outline: none;
     border: 2px solid #c4c4c4;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  }
-#especie{
+}
+
+#especie {
     display: flex;
 }
-  label {
+
+label {
     display: block;
     margin-bottom: 5px;
-  }
+}
 
-  form div {
+form div {
     position: relative;
     margin-bottom: 15px;
-  }
+}
 
-  input:focus {
+input:focus {
     border: 2px solid #f2796e;
-  }
+}
 
-  form div i {
+form div i {
     position: absolute;
     padding: 10px;
-  }
+}
 
-  .failure-icon,
+.failure-icon,
 .error {
-  color: red;
+    color: red;
 }
 
 .success-icon {
-  color: green;
+    color: green;
 }
 
 .error {
-  font-size: 14.5px;
-  margin-top: 5px;
+    font-size: 14.5px;
+    margin-top: 5px;
 }
+
 .success-icon,
 .failure-icon {
-  right: 0;
-  opacity: 0;
+    right: 0;
+    opacity: 0;
 }
-button {
+
+#btn {
     margin-top: 15px;
     width: 100%;
     height: 45px;
@@ -582,16 +931,14 @@ button {
     cursor: pointer;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     transition: all 0.1s ease;
-  }
-  button:hover {
-    opacity: 0.8;
-  }
-
-    
-main form{
-    
 }
-main .container{
+
+#btn:hover {
+    opacity: 0.8;
+}
+
+
+main .container {
     margin: 2 5%;
 }
 
@@ -605,47 +952,56 @@ main .sucursales {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
 }
 
 main .sucursales div {
+    
     text-align: center;
-    color: #d1e9f6;
-    background-color: #2a90b5;
+    color: #DD761C;
+    background-color: #0f1b1ddc;
     padding: 1%;
 }
 
 main .sucursales section {
- 
+
     text-align: center;
     margin-bottom: 5%;
+    border-radius: 5px;
     border: 2px solid rgb(0, 0, 0);
     box-shadow: 3px 2px 5px darkgray;
 }
-@media only screen and (max-width: 650px){
-   div .etiqueta{
-    padding: 0;
-   }
-   label{
-    font-size: 10px;
-   }
-   main .sucursales{
-    display: block;
-   }
-form input{
-    font-size: 10px;
-}
-form div{
-    font-size: 10px;
-}
 
-   div iframe{
-    max-width: 80%;
-   }
-   main .sucursales section{
-    box-shadow: none;
-   }
-   form{
-    padding: 50px 0 50px 0;
-   }
+@media only screen and (max-width: 650px) {
+    div .etiqueta {
+        padding: 0;
+    }
+
+    label {
+        font-size: 10px;
+    }
+
+    main .sucursales {
+        display: block;
+    }
+
+    form input {
+        font-size: 10px;
+    }
+
+    form div {
+        font-size: 10px;
+    }
+
+    div iframe {
+        max-width: 80%;
+    }
+
+    main .sucursales section {
+        box-shadow: none;
+    }
+
+    form {
+        padding: 50px 0 50px 0;
+    }
 }
