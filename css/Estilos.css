@@ -463,7 +463,7 @@ main div .tienda {
 }
 
 main div .tienda .categorias {
-    margin: 50px 10% 10px;    
+    margin: 50px 10% 30px;    
     text-align: center;
     align-items: center;
     max-width: 80%;
@@ -555,13 +555,13 @@ main div div .tienda2 {
         align-items: center;
     }
     main div .destacadas .marcas {
-        margin: 1% 5%;
+        margin: 1% 0%;
     }
     main div div .cajaproductos{
         max-width: 380px;
     }
     main div .tienda .categorias {
-        margin: 0% 5%;
+        margin: 0% 5% 5%;
       
     }
 }
