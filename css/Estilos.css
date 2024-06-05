@@ -43,7 +43,7 @@
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 0%;
-    
+
 }
 
 .header .logo h2:hover {
@@ -57,12 +57,12 @@
     width: 100%;
     align-items: center;
     background-color: #1e81b0;
-    
+
 }
 
 .header .nav a {
     margin: 2%;
-    font-size: 70%;
+    font-size: 80%;
     color: #eeeee4;
     text-decoration: none;
     font-weight: 600;
@@ -101,7 +101,7 @@ footer p {
 /*-----inicio-----*/
 
 body .index {
-    background-color: #EFF4F7;    
+    background-color: #EFF4F7;
     max-width: 100%;
 }
 
@@ -138,27 +138,32 @@ main .portada img {
         /* Ajusta esto según sea necesario */
         margin: auto;
     }
+
     .carousel-inner img {
         width: 100%;
         height: 200px;
         /* Mantiene la proporción de aspecto */
     }
-    main .presentacion{
-    padding: 0;
+
+    main .presentacion {
+        padding: 0;
     }
-    #app .d-flex{
+
+    #app .d-flex {
         flex-direction: column;
         align-content: center;
     }
-    #app .tarjeta{
+
+    #app .tarjeta {
         min-width: 90%;
         margin: 5px;
     }
 
-    main .inicio-tarjetas{
-    padding: 0 0 0;
+    main .inicio-tarjetas {
+        padding: 0 0 0;
     }
 }
+
 /* ----------------presentacion ----------------*/
 
 .presentacion {
@@ -190,19 +195,19 @@ main .portada img {
     width: 100%;
     margin: auto;
     padding: 30px 10% 20px;
-    background-color: #EFF4F7;    
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
+    background-color: #EFF4F7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.menu-busqueda{    
+.menu-busqueda {
     text-align: center;
-    
+
 }
 
 
-#app .canina{    
+#app .canina {
     font-size: 1.2rem;
-    font-weight: bold;    
+    font-weight: bold;
     color: #0F1B1D;
     padding: 0px 0px 10;
     max-width: 100%;
@@ -225,24 +230,25 @@ main .portada img {
     font-size: 0.6rem;
     font-weight: normal;
     border: 1px solid #EFF4F7;
-    border-radius: 8px;    
+    border-radius: 8px;
     cursor: pointer;
     display: inline-block;
     background-color: #0F1B1D;
     color: #FFFBF0;
     border: none;
     transition: background-color 0.3s;
-    
+
 }
 
-#app select, option {
+#app select,
+option {
     width: 30%;
     font-size: 0.7rem;
     color: #0F1B1D;
     font-family: "Hind Madurai", sans-serif;
     font-weight: 600;
     font-style: normal;
-    background-color: #EFF4F7; 
+    background-color: #EFF4F7;
 }
 
 #app button:hover {
@@ -263,7 +269,7 @@ main .portada img {
     padding: 15px;
     border: 1px solid #0F1B1D;
     border-radius: 12px;
-    background-color: #0f1b1ddc;    
+    background-color: #0f1b1ddc;
     color: #EFF4F7;
 }
 
@@ -282,13 +288,13 @@ main .portada img {
 }
 
 #app .tarjeta p {
-    margin: 0;    
+    margin: 0;
     font-size: 15px;
     font-family: "Hind Madurai", sans-serif;
     font-weight: 100;
     text-align: center;
     color: #EFF4F7;
-    
+
 }
 
 /*----media para el nav-----*/
@@ -320,7 +326,7 @@ main .portada img {
     background-color: #dd761ca1;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
 
 .tarjeta-1 {
@@ -329,7 +335,7 @@ main .portada img {
     background-color: #EFF4F7;
     size: cover;
     background-position: center;
-    
+
     margin: 20px;
     padding: 30px;
     width: 300px;
@@ -345,7 +351,7 @@ main .portada img {
 
 .tarjeta-1 p {
     color: #0F1B1D;
-    font-size: 0.7rem;   
+    font-size: 0.7rem;
     font-family: "Hind Madurai", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -354,19 +360,19 @@ main .portada img {
 .contenedor-tarjetas .button-1 {
     display: inline-block;
     padding: 5px 10px;
-    
-    color:#1D0D00;
+
+    color: #1D0D00;
     text-decoration: none;
-      
+
     font-size: 0.7rem;
-    
+
     font-family: "Hind Madurai", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
 .contenedor-tarjetas .button-1:hover {
-    color: #DD761C;    
+    color: #DD761C;
 }
 
 /* ------------------- links-----------------*/
@@ -431,7 +437,8 @@ main div .destacadas .marcas {
 .animate__animated.animate__rubberBand {
     --animate-duration: 2s;
 }
-.animate__animated{
+
+.animate__animated {
     color: #0F1B1D;
     font-size: 1rem;
     font-weight: 600;
@@ -443,6 +450,7 @@ main div .destacadas .marcas img {
     border: 1px solid #0F1B1D;
     border-radius: 5px;
 }
+
 main div .destacadas .marcas div {
     border-radius: 12px;
     padding: 2px;
@@ -459,11 +467,11 @@ main div .destacadas .marcas div a img:hover {
 main div .tienda {
     display: flex;
     flex-direction: column;
-   
+
 }
 
 main div .tienda .categorias {
-    margin: 50px 10% 30px;    
+    margin: 50px 10% 30px;
     text-align: center;
     align-items: center;
     max-width: 80%;
@@ -474,14 +482,14 @@ main div .tienda .categorias {
 main div .tienda .categorias>h2 {
 
     border-radius: 5px;
-    margin-bottom: 5px;
+    padding: 5px;
     background-color: #eeeee4;
     font-size: 1rem;
     font-weight: 600;
     color: #0F1B1D;
 }
 
-main div div .cajaproductos {    
+main div div .cajaproductos {
     background-color: #ffffff;
     display: flex;
     padding: 2% 0%;
@@ -491,14 +499,14 @@ main div div .cajaproductos {
 }
 
 main div div .cajaproductos .itemproducto {
-   box-shadow: 1px 1px 5px gray;
-   border-radius: 7px;
-   margin: 0 5px;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 7px;
+    margin: 0 5px;
     width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
-  padding: 5px 0;
+    padding: 5px 0;
 
 }
 
@@ -510,8 +518,9 @@ main div div .cajaproductos .itemproducto {
     color: #ffffff;
     padding: 3px;
 }
+
 main div div .cajaproductos .itemproducto:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .itemproducto h2 {
@@ -520,7 +529,7 @@ main div div .cajaproductos .itemproducto:hover {
     padding: 3px;
     border: 3px solid #0f1b1ddc;
     background-color: #0f1b1ddc;
-    border-radius: 5px ;
+    border-radius: 5px;
     color: #ffffff;
 }
 
@@ -551,24 +560,27 @@ main div div .tienda2 {
         background-color: #ffffff;
 
     }
-    main div .tienda{
+
+    main div .tienda {
         align-items: center;
     }
+
     main div .destacadas .marcas {
         margin: 1% 0%;
     }
-    main div div .cajaproductos{
+
+    main div div .cajaproductos {
         max-width: 380px;
     }
+
     main div .tienda .categorias {
         margin: 0% 5% 5%;
-      
+
     }
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 650px) {}
 
-}
 /*----Css de Servicios------*/
 
 .pag-servicios {
@@ -577,13 +589,13 @@ main div div .tienda2 {
     text-align: center;
 }
 
-.pag-servicios .animate__animated{
+.pag-servicios .animate__animated {
     background-color: #eeeee4;
     max-width: 100%;
     color: #0F1B1D;
     font-size: 1rem;
     font-weight: 700;
-    padding: 20px;    
+    padding: 20px;
 }
 
 
@@ -591,7 +603,7 @@ main div div .tienda2 {
     padding: 20px;
     max-width: 80%;
     margin: 0 auto;
-    
+
 }
 
 .servicios-link h3 {
@@ -609,11 +621,11 @@ main div div .tienda2 {
     padding: 0;
     margin: 0;
 
-    
+
 }
 
 .servicios-link li {
-    
+
     padding: 10px;
     border-radius: 8px;
     text-align: center;
@@ -627,14 +639,14 @@ main div div .tienda2 {
     display: block;
     font-size: 0.7rem;
     font-weight: 200;
-    
+
 }
 
 .servicios-link a:hover {
     color: #009fbb;
 }
 
-section h3{
+section h3 {
     color: #0F1B1D;
     padding-top: 50px;
     font-size: 1rem;
@@ -673,10 +685,11 @@ article
     padding: 30px 0px 40px;
     max-width: 80%;
     margin: auto;
-    
+
 
 }
-article h3{
+
+article h3 {
     font-size: 1rem;
     font-weight: 500;
     text-align: center;
@@ -721,6 +734,7 @@ li h6
 
 /* funciones */
     {
+    color: #eeeee4;
     box-sizing: border-box;
     text-align: center;
     font-family: "Hind Madurai", sans-serif;
@@ -748,8 +762,8 @@ li h6
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
-    
+
+
 }
 
 .menu li
@@ -765,7 +779,7 @@ li h6
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-.menu li h5{
+.menu li h5 {
     color: #DD761C;
 }
 
@@ -850,6 +864,143 @@ li h6
 
 /*------Css de Registro------*/
 
+/* Estilos del formulario */
+
+/*main.registro {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+}*/
+
+
+form#form div {
+    margin-bottom: 15px;
+
+}
+
+
+form#form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+
+form#form input[type="text"],
+
+form#form input[type="email"],
+
+form#form input[type="number"],
+
+form#form input[type="text"],
+
+form#form select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+
+form#form input[type="checkbox"],
+form#form input[type="radio"] {
+    font-weight: normal;
+
+}
+
+
+form#form .failure-icon,
+form#form .success-icon {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    font-size: 1.2em;
+
+}
+
+
+form#form .error {
+    color: #d9534f;
+    font-size: 0.9em;
+    margin-top: 5px;
+
+}
+
+
+form#form button#btn {
+    width: 100%;
+
+    background-color: #ffcc00;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+
+}
+
+
+form#form button#btn:hover {
+    background-color: #ff9900;
+
+}
+
+.sucursal-container {
+    margin-bottom: 20px;
+
+}
+
+
+.sucursal-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+
+}
+
+
+.sucursal-container select {
+    width: 100%;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-weight: normal;
+
+}
+
+
+.sucursal-container i {
+    display: none;
+}
+
+
+.sucursal-container .error {
+    color: red;
+    font-size: 14px;
+}
+
+
+/* Estilos de las sucursales */
+
+div.sucursales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
 
 form {
     display: flex;
