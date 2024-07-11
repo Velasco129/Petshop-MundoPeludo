@@ -9,6 +9,7 @@ let navegacion2 = `
 <a class="link" href="./Servicios.html">Servicios</a>
 <a class="link" href="./Nosotros.html">Nosotros</a>
 <a class="link" href="./Registro.html">Registrese</a>
+<a class="link" href="./login.html">Login</a>
 </nav>`
 
 let pie = `<h2>Seguinos en las redes</h2>

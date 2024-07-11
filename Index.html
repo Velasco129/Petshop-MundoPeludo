@@ -93,9 +93,13 @@
       <div class="menu-busqueda">
 
         <label>Tamaño:</label>
-        <select v-model="tamano" name="tamano">
+        <!--<select v-model="tamano" name="tamano">
           <option id="tamano" selected>All</option>
           <option id="tamano" v-for="tamano of tamanos">{{tamano}}</option>
+        </select>-->
+        <select v-model="tamanofiltro" name="tamanofiltro">
+          <option id="tamanofiltro" selected>All</option>
+          <option id="tamanofiltro" v-for="tamanofiltro of tamanosfiltro">{{tamanofiltro}}</option>
         </select>
 
         <button v-on:click="filtro() ">Buscar</button>
@@ -108,10 +112,15 @@
         <div v-for="elemento of perros" class="tarjeta">
 
           <img :src="elemento.imagen" :alt="elemento.nombre">
-          <h5>{{elemento.nombre}}</h5>
+          <!--- <h5>{{elemento.nombre}}</h5>
           <p>Tamaño: {{elemento.tamaño}}</p>
           <p>Pais de Origen: {{elemento.pais_de_origen}} </p>
           <p>Esperanza de vida: {{elemento.esperanza_de_vida}}</p>
+          <p>Características: {{elemento.caracteristicas}}</p>-->
+          <h5>{{elemento.nombre}}</h5>
+          <p>Tamaño: {{elemento.tamano}}</p>
+          <p>Pais de Origen: {{elemento.origen}} </p>
+          <p>Esperanza de vida: {{elemento.longevidad}}</p>
           <p>Características: {{elemento.caracteristicas}}</p>
 
         </div>
