@@ -13,14 +13,46 @@ let navegacion2 = `
 <a class="link" href="./login.html">Login</a>
 </nav>`
 
+let navegacionadmin = `
+<nav class="nav">
+<div class="logo">
+<a class="cont-link" href="./Index.html">
+<img src="./img/Logosolo.png" alt="logode la marca" >
+<h2>Patitas Sanas</h2></a> 
+</div>
+<a class="link" href="./Productos.html">Productos</a>
+<a class="link" href="./Servicios.html">Servicios</a>
+ <ul class="">
+          <li class="" id="crud"   >
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownId"  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Administracion</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId" >
+                  <a class="dropdown-item" href="productos.html">Productos</a>
+                  <a class="dropdown-item" href="tipoproductos.html">Tipo Producto</a>
+              </div>
+          </li>
+        <li class="nav-item">
+              <a class="nav-link" href="registro.html">Registro</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+          </li>
+      </ul>
+<a class="link" href="./login.html">Login</a>
+</nav>`
+
 let pie = `<h2>Seguinos en las redes</h2>
  <a href="https://www.facebook.com/naturallifepet"><img src="./img/facebook.png" alt=""></a>
         <a href="https://www.instagram.com/natural_life_pet/"><img src="./img/instagram.png" alt=""></a>
         <a href="https://api.whatsapp.com/send?phone=5491167026320"><img src="./img/whatsapp.png" alt=""></a>
 <p>Sitio desarrollado en codo a codo</p>`
-
-
-document.querySelector("header").innerHTML = navegacion2
+//
+if (sessionStorage.getItem("adm")!="1"){
+  document.querySelector("header").innerHTML = navegacion2
+}else{
+  document.querySelector("header").innerHTML = navegacionadmin
+}
+//
+//document.querySelector("header").innerHTML = navegacion2//
 document.querySelector("footer").innerHTML = pie
 
 
