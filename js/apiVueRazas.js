@@ -49,7 +49,7 @@ createApp({
   }
 }).mount('#app')*/
 
-/*codigo deconsumo de "api" creado con CRUD"*/
+
 
 const { createApp } = Vue  //creo objeto VUE llamdo createApp
 createApp({

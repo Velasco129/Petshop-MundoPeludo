@@ -45,7 +45,7 @@ crossorigin="anonymous"/>
                     <div class="cajaproductos">
                         <div class="itemproducto" v-for="elemento in datos.alimentosperro">
                             <h2>{{elemento.nombre}}</h2>
-                            <a href=""><img :src="elemento.foto" alt="elemento.nombre"></a>
+                            <a href=""><img :src="elemento.imagen" alt="elemento.nombre"></a>
                             <h3>${{elemento.precio}}</h3>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ crossorigin="anonymous"/>
                     <div class="cajaproductos">
                         <div class="itemproducto" v-for="elemento in datos.alimentosgato">
                             <h2>{{elemento.nombre}}</h2>
-                            <a href=""><img :src="elemento.foto" alt="elemento.nombre"></a>
+                            <a href=""><img :src="elemento.imagen" alt="elemento.nombre"></a>
                             <h3>${{elemento.precio}}</h3>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ crossorigin="anonymous"/>
                     <div class="cajaproductos">
                         <div class="itemproducto" v-for="elemento in datos.accesoriosmascota">
                             <h2>{{elemento.nombre}}</h2>
-                            <a href=""><img :src="elemento.foto" alt="elemento.nombre"></a>
+                            <a href=""><img :src="elemento.imagen" alt="elemento.nombre"></a>
                             <h3>${{elemento.precio}}</h3>
                         </div>
                     </div>

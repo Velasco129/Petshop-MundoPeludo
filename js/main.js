@@ -8,7 +8,8 @@ let navegacion2 = `
 <a class="link" href="./Productos.html">Productos</a>
 <a class="link" href="./Servicios.html">Servicios</a>
 <a class="link" href="./Nosotros.html">Nosotros</a>
-<a class="link" href="./Registro.html">Registrese</a>
+<a class="link" href="./Contacto.html">Contactenos</a>
+<a class="link" href="./Registro.html">Registro</a>
 <a class="link" href="./login.html">Login</a>
 </nav>`
 

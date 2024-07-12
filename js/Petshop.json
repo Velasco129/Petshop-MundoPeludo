@@ -4,49 +4,49 @@
             "id": 1,
             "nombre": "Eukanuba",
             "precio": 64000,
-            "foto": "https://cdn.royalcanin-weshare-online.io/5udGXIMBaPOZra8q-eyX/v23/ar-l-eukanuba-packshot-adult-large-breed?w=500&fm=jpg&auto=compress"
+            "imagen": "https://cdn.royalcanin-weshare-online.io/5udGXIMBaPOZra8q-eyX/v23/ar-l-eukanuba-packshot-adult-large-breed?w=500&fm=jpg&auto=compress"
         },
         {
             "id": 2,
             "nombre": "Pro Plan",
             "precio": 70000,
-            "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2022-10/razas-medianas-1-proplan.png.webp?itok=M7p4g4jF"
+            "imagen": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2022-10/razas-medianas-1-proplan.png.webp?itok=M7p4g4jF"
         },
         {
             "id": 3,
             "nombre": "Rayal Canin",
             "precio": 72000,
-            "foto": "https://catycanar.vtexassets.com/arquivos/ids/160559-1600-auto?v=637762992189600000&width=1600&height=auto&aspect=true"
+            "imagen": "https://catycanar.vtexassets.com/arquivos/ids/160559-1600-auto?v=637762992189600000&width=1600&height=auto&aspect=true"
         },
         {
             "id": 4,
             "nombre": "VitalCan",
             "precio": 65000,
-            "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_939749-MLU75592618333_042024-F.webp"
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_939749-MLU75592618333_042024-F.webp"
         },
         {
             "id": 5,
             "nombre": "Dog Chow",
             "precio": 60000,
-            "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2023-04/dog-chow-adulto-med-gnd-carne-pollo-front.png.webp?itok=UZ8OvqjH"
+            "imagen": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2023-04/dog-chow-adulto-med-gnd-carne-pollo-front.png.webp?itok=UZ8OvqjH"
         },
         {
             "id": 6,
             "nombre": "Dogui",
             "precio": 50000,
-            "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2022-11/dogui-adultos-con-carne-pollo-cereales-y-vegetalles.jpg.webp?itok=mI_SO-b6"
+            "imagen": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2022-11/dogui-adultos-con-carne-pollo-cereales-y-vegetalles.jpg.webp?itok=mI_SO-b6"
         },
         {
             "id": 7,
             "nombre": "Kongo",
             "precio": 51000,
-            "foto": "https://kongo.com.ar/wp-content/uploads/elementor/thumbs/x1-qavc3agzhx1l4kip64l7hhwk1khx9mjrxmg8eu55a8.jpg"
+            "imagen": "https://kongo.com.ar/wp-content/uploads/elementor/thumbs/x1-qavc3agzhx1l4kip64l7hhwk1khx9mjrxmg8eu55a8.jpg"
         },
         {
             "id": 8,
             "nombre": "Dog Selection",
             "precio": 70000,
-            "foto" : "https://www.dog-selection.com.ar/wp-content/uploads/2020/11/criadores-adultos-carne-y-vegetales-1.png"
+            "imagen" : "https://www.dog-selection.com.ar/wp-content/uploads/2020/11/criadores-adultos-carne-y-vegetales-1.png"
         }
     ],
     "alimentosgato": [
@@ -54,37 +54,37 @@
             "id": 1,
             "nombre": "Gati",
             "precio": 45000,
-            "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2023-01/gati_pescado_salmon_a_la_primavera.png.webp?itok=Tm5sallt"
+            "imagen": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2023-01/gati_pescado_salmon_a_la_primavera.png.webp?itok=Tm5sallt"
         },
         {
             "id": 2,
             "nombre": "Cat Chow",
             "precio": 50000,
-            "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2023-04/ADULTOS%20PESCADO%20Y%20POLLO-cat-chow-front.png.webp?itok=DwfgSNA8"
+            "imagen": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2023-04/ADULTOS%20PESCADO%20Y%20POLLO-cat-chow-front.png.webp?itok=DwfgSNA8"
         },
         {
             "id": 3,
             "nombre": "Eukanuba",
             "precio": 60000,
-            "foto": "https://eukanuba.eu/fileadmin/product_images/T90003403_192616_001.png"
+            "imagen": "https://eukanuba.eu/fileadmin/product_images/T90003403_192616_001.png"
         },
         {
             "id": 4,
             "nombre": "Pro Plan",
             "precio": 60000,
-            "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2022-08/Reduced_Calorie_Gato_Frente_Pro_Plan.png.webp?itok=rJGKB9aZ"
+            "imagen": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2022-08/Reduced_Calorie_Gato_Frente_Pro_Plan.png.webp?itok=rJGKB9aZ"
         },
         {
             "id": 5,
             "nombre": "Whiskas",
             "precio": 45000,
-            "foto": "https://www.whiskas.com.ar/cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf4921/files/2022-12/7797453972413-product-image-1.png"
+            "imagen": "https://www.whiskas.com.ar/cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf4921/files/2022-12/7797453972413-product-image-1.png"
         },
         {
             "id": 6,
             "nombre": "Excellent",
             "precio": 52000,
-            "foto": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2024-03/Excellent_Gatos_Adult.png.webp?itok=GSH6fIFj"
+            "imagen": "https://www.purina.com.ar/sites/default/files/styles/webp/public/2024-03/Excellent_Gatos_Adult.png.webp?itok=GSH6fIFj"
         }
     ],
     "accesoriosmascota": [
@@ -92,44 +92,44 @@
             "id": 1,
             "nombre": "Cepillo",
             "precio": 5000,
-            "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_702757-MLA54969147398_042023-F.webp"
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_702757-MLA54969147398_042023-F.webp"
         },
         {
             "id": 3,
             "nombre": "Laberinto",
             "precio": 15000,
-            "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_959725-MLU74470970265_022024-F.webp"
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_959725-MLU74470970265_022024-F.webp"
         },
         {
             "id": 4,
             "nombre": "Soga",
             "precio": 5000,
-            "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_779186-MLA69723516853_052023-F.webp"
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_779186-MLA69723516853_052023-F.webp"
         },
         {
             "id": 5,
             "nombre": "Soga agarre",
             "precio": 7000,
-            "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_870824-MLA70998242744_082023-F.webp"
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_870824-MLA70998242744_082023-F.webp"
         },
         {
             "id": 6,
             "nombre": "Caña",
             "precio": 4000,
-            "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_812449-MLA49434006019_032022-F.webp"
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_812449-MLA49434006019_032022-F.webp"
         },
         {
             "id": 7,
             "nombre": "Castillo Rascador",
             "precio": 5000,
-            "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_615459-MLU73936759469_012024-F.webp"
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_615459-MLU73936759469_012024-F.webp"
            
         },
         {
             "id": 6,
             "nombre": "Soga",
             "precio": 5000,
-            "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_779186-MLA69723516853_052023-F.webp"
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_779186-MLA69723516853_052023-F.webp"
         }
     ]
 }
