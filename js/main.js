@@ -46,20 +46,13 @@ let pie = `<h2>Seguinos en las redes</h2>
 document.querySelector("header").innerHTML = navegacion
 document.querySelector("footer").innerHTML = pie
 
- /* if (sessionStorage.getItem("adm") !== "1") {
-    document.querySelector("header").innerHTML = navegacionadmin
+ if (sessionStorage.getItem("adm") !== "1") {
+    document.querySelector("header").innerHTML = navegacion
   } else {
-    document.querySelector("#crud").setAttribute('style', 'display:on')
-  }*/
+    document.querySelector("header").innerHTML = barraadmin
+  }
 
-/*
-if (sessionStorage.getItem("adm")!="1"){
-  document.querySelector("header").innerHTML = navegacion2
-}else{
-  document.querySelector("header").innerHTML = navegacionadmin
-}
-*/
-//document.querySelector("header").innerHTML = navegacion2
+
 
 
 
