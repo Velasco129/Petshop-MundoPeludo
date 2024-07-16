@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mundo peludo</title>
+<link rel="icon" href="./img/favicon4.ico"><!--Favicon-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/estilos.css"><!--Hoja Stilo-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+crossorigin="anonymous"/>
+</head>
+
+<body>
+    <header class="header">
+     
+    </header>
+    <main class="prod">
+        <div class="home">
+            <div class="bannerpromo">
+                <img src="./img/Webbanners-productos.png" alt="promocion">
+            </div>
+            <div class="bar-img">
+                <img src="./img/img-bar-productos/Envios-programados.png" alt="">
+                <img src="./img/img-bar-productos/Envios-urgentes.png" alt="">
+                <img src="./img/img-bar-productos/Retiro en tienda.png" alt="">
+                <img src="./img/img-bar-productos/Medios-pagos.png" alt="">
+            </div>
+            <div class="destacadas">
+                <h2 class="animate__animated animate__heartBeat animate__delay-1s" >Marcas destacadas</h2>
+                <div class="marcas">
+                    <div><a href=""><img src="./img/Eukanuba 150x150.png" alt=""></a></div>
+                    <div><a href=""><img src="./img/Pro Plan 150x150.png" alt=""></a></div>
+                    <div><a href=""><img src="./img/Royal Canin 150x150.png" alt=""></a></div>
+                    <div><a href=""><img src="./img/VitalCan 150x150.png" alt=""></a></div>
+                </div>
+            </div>    
+            <div id="app" class="tienda">
+                <!--<div class="categorias">
+                    <h2>Alimento para perro</h2>
+                    <div class="cajaproductos">
+                        <div class="itemproducto" v-for="elemento in datos.alimentosperro">
+                            <h2>{{elemento.nombre}}</h2>
+                            <a href=""><img :src="elemento.imagen" alt="elemento.nombre"></a>
+                            <h3>${{elemento.precio}}</h3>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="categorias">
+                    <h2>Alimento para perro</h2>
+                    <div class="cajaproductos">
+                        <div class="itemproducto" v-for="elemento in tipo1">
+                            <h2>{{elemento.nombre}}</h2>
+                            <a href=""><img :src="elemento.imagen" alt="elemento.nombre"></a>
+                            <h3>${{elemento.precio}}</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="categorias">
+                    <h2>Alimento para gatos</h2>
+                    <div class="cajaproductos">
+                        <div class="itemproducto" v-for="elemento in tipo2">
+                            <h2>{{elemento.nombre}}</h2>
+                            <a href=""><img :src="elemento.imagen" alt="elemento.nombre"></a>
+                            <h3>${{elemento.precio}}</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="categorias">
+                    <h2>Accesorios para mascotas</h2>
+                    <div class="cajaproductos">
+                        <div class="itemproducto" v-for="elemento in tipo3">
+                            <h2>{{elemento.nombre}}</h2>
+                            <a href=""><img :src="elemento.imagen" alt="elemento.nombre"></a>
+                            <h3>${{elemento.precio}}</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./js/apiVuePetshop.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
